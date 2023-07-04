@@ -1,6 +1,9 @@
 # LakkaBios
-  
-![](Lakka.png#center)
+<p align="center">  
+
+  ![](Lakka.png)
+
+</p>
 
 <h1 align="center"> Invite a Coffee</h1>
 
