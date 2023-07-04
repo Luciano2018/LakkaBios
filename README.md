@@ -1,7 +1,7 @@
-# LakkaBios
-
+  # LakkaBios
+<p align="center">
 ![GitHub Logo Lakka](/Lakka.png)
-
+</p>
 <h1 align="center"> Invite a Coffee</h1>
 
 <p align="center">
