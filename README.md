@@ -1,6 +1,8 @@
 # LakkaBios
 <p align="center">
-![GitHub Logo](/Lakka.png)
+  
+!(Lakka.png)
+
 </p>
 <h1 align="center"> Invite a Coffee</h1>
 
