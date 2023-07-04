@@ -16,6 +16,11 @@
 
 # Connect through SSH Terminal and type:
 ```
+ssh root@lakka
+Answer yes
+Password root
+```
+```
 curl -sSL https://raw.githubusercontent.com/Luciano2018/LakkaBios/main/lakka.sh | bash
 ```
 
