@@ -1,6 +1,6 @@
 # LakkaBios
   
-![](Lakka.png)
+![](Lakka.png#center)
 
 <h1 align="center"> Invite a Coffee</h1>
 
