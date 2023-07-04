@@ -1,6 +1,6 @@
 # LakkaBios
 
-![GitHub Logo Lakka](/media/images/n64.svg)
+![GitHub Logo Lakka](/Lakka.png)
 
 <h1 align="center"> Invite a Coffee</h1>
 
@@ -15,7 +15,7 @@
 
 # Connect through SSH Terminal and type:
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/LakkaBios/master/lakka.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/LakkaBios/main/lakka.sh | bash
 ```
 
 # Enjoy!
