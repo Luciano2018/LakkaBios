@@ -361,7 +361,7 @@ rm "/storage/system/tvc_dos12d.rom"
 rm "/storage/system/tvcfileio.rom"
 rm "/storage/system/ecwolf.pk3"
 
-echo "3DO Company, The%20-%203DO"
+echo "The 3DO Company"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/3do_arcade_saot.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/goldstar.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/panafz10.bin" -P /storage/system/
@@ -376,7 +376,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
 
-echo "Amstrad%20-%20CPC"
+echo "Amstrad-CPC"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
@@ -394,34 +394,34 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/pgm.zip
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/skns.zip" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/ym2608.zip" -P /storage/system/
 
-echo "Atari%20-%20400-800"
+echo "Atari-400-800"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIBAS.ROM" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIOSA.ROM" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIOSB.ROM" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIXL.ROM" -P /storage/system/
 
-echo "Atari%20-%205200"
+echo "Atari-5200"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%205200/5200.rom" -P /storage/system/
 
-echo "Atari%20-%207800"
+echo "Atari-7800"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%207800/7800%20BIOS%20(E).rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%207800/7800%20BIOS%20(U).rom" -P /storage/system/
 
-echo "Atari%20-%20Lynx"
+echo "Atari-Lynx"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20Lynx/lynxboot.img" -P /storage/system/
 
-echo "Atari%20-%20ST"
+echo "Atari-ST"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20ST/tos.img" -P /storage/system/
 
-echo "Coleco%20-%20ColecoVision"
+echo "Coleco-ColecoVision"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Coleco%20-%20ColecoVision/colecovision.rom" -P /storage/system/
 
-echo "Commodore%20-%20Amiga"
+echo "Commodore-Amiga"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Commodore%20-%20Amiga/kick40063.A600" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Commodore%20-%20Amiga/kick40068.A1200" -P /storage/system/
 
-echo "Enterprise%20-%2064-128"
+echo "Enterprise-64-128"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-%2064-128/brd.rom" -P /storage/system/
@@ -435,12 +435,12 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
 
-echo "Fairchild%20Channel%20F"
+echo "Fairchild Channel F"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Fairchild%20Channel%20F/sl31253.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Fairchild%20Channel%20F/sl31254.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Fairchild%20Channel%20F/sl90025.bin" -P /storage/system/
 
-echo "Id%20Software%20-%20Doom"
+echo "Id Software-Doom"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Id%20Software%20-%20Doom/prboom.wad" -P /storage/system/
 
 echo "J2ME"
@@ -451,14 +451,14 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/J2ME/freej2me-
 echo "MacII"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/MacII/MacII.ROM" -P /storage/system/
 
-echo "Magnavox%20-%20Odyssey2"
+echo "Magnavox-Odyssey2"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Magnavox%20-%20Odyssey2/o2rom.bin" -P /storage/system/
 
-echo "Mattel%20-%20Intellivision"
+echo "Mattel-Intellivision"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Mattel%20-%20Intellivision/exec.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Mattel%20-%20Intellivision/grom.bin" -P /storage/system/
 
-echo "Microsoft%20-%20MSX"
+echo "Microsoft-MSX"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%20MSX/CARTS.SHA" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%20MSX/CYRILLIC.FNT" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%20MSX/DISK.ROM" -P /storage/system/
@@ -475,7 +475,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%20MSX/PAINTER.ROM" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Microsoft%20-%20MSX/RS232.ROM" -P /storage/system/
 
-echo "NEC%20-%20PC-98"
+echo "NEC-PC-98"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-98/2608_bd.wav" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-98/2608_hh.wav" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-98/2608_rim.wav" -P /storage/system/
@@ -488,7 +488,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-9
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-98/itf.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-98/sound.rom" -P /storage/system/
 
-echo "NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx"
+echo "NEC-PC Engine-TurboGrafx 16-SuperGrafx"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gecard.pce" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gexpress.pce" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard1.pce" -P /storage/system/
@@ -497,28 +497,28 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%2
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3.pce" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3u.pce" -P /storage/system/
 
-echo "NEC%20-%20PC-FX"
+echo "NEC-PC-FX"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-FX/fx-scsi.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-FX/pcfxbios.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-FX/pcfxga.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Famicom%20Disk%20System"
+echo "Nintendo-Famicom Disk System"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
 
-echo "Nintendo%20-%20Gameboy"
+echo "Nintendo-Gameboy"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Gameboy/dmg_boot.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Gameboy/gb_bios.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Game%20Boy%20Advance"
+echo "Nintendo-Game Boy Advance"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Game%20Boy%20Advance/gba_bios.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Gameboy%20Color"
+echo "Nintendo-Gameboy Color"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Gameboy%20Color/cgb_boot.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Gameboy%20Color/gbc_bios.bin" -P /storage/system/
 
-echo "Nintendo%20-%20GameCube"
+echo "Nintendo-GameCube"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20GameCube/gc-dvd-20020402.bin" -P /storage/system/
@@ -530,29 +530,29 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%2
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Nintendo%2064DD"
+echo "Nintendo-Nintendo 64DD"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Nintendo%2064DD/64DD_IPL.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Nintendo%20DS"
+echo "Nintendo-Nintendo DS"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Nintendo%20DS/bios7.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Nintendo%20DS/firmware.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Nintendo%20Entertainment%20System"
+echo "Nintendo-Nintendo Entertainment System"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
 
-echo "Nintendo%20-%20Pokemon%20Mini"
+echo "Nintendo-Pokemon Mini"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Pokemon%20Mini/bios.min" -P /storage/system/
 
-echo "Nintendo%20-%20Satellaview"
+echo "Nintendo-Satellaview"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
 
-echo "Nintendo%20-%20SuFami%20Turbo"
+echo "Nintendo-SuFami Turbo"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Super%20Game%20Boy"
+echo "Nintendo-Super Game Boy"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
@@ -562,7 +562,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%2
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Game%20Boy/sgb_bios.bin" -P /storage/system/
 
-echo "Nintendo%20-%20Super%20Nintendo%20Entertainment%20System"
+echo "Nintendo-Super Nintendo Entertainment System"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/cx4.data.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.data.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.program.rom" -P /storage/system/
@@ -581,7 +581,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%2
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
 
-echo "Phillips%20-%20Videopac+"
+echo "Phillips-Videopac+"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Phillips%20-%20Videopac+/c52.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Phillips%20-%20Videopac+/g7400.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Phillips%20-%20Videopac+/jopac.bin" -P /storage/system/
@@ -589,12 +589,12 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Phillips%20-%2
 echo "ScummVM"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/ScummVM/scummvm.zip" -P /storage/system/
 
-echo "Sega%20-%20Dreamcast/dc"
+echo "Sega-Dreamcast/dc"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast/dc/boot.bin" -P /storage/system/dc/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast/dc/dc_boot.bin" -P /storage/system/dc/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast/dc/flash.bin" -P /storage/system/dc/
 
-echo "Sega%20-%20Dreamcast-based%20Arcade/dc"
+echo "Sega-Dreamcast-based Arcade/dc"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast-based%20Arcade/dc/airlbios.zip" -P /storage/system/dc/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast-based%20Arcade/dc/awbios.zip" -P /storage/system/dc/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast-based%20Arcade/dc/f355bios.zip" -P /storage/system/dc/
@@ -603,21 +603,21 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dre
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast-based%20Arcade/dc/naomi2.zip" -P /storage/system/dc/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Dreamcast-based%20Arcade/dc/naomi.zip" -P /storage/system/dc/
 
-echo "Sega%20-%20Game%20Gear"
+echo "Sega-Game Gear"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Game%20Gear/bios.gg" -P /storage/system/
 
-echo "Sega%20-%20Master%20System%20-%20Mark%20III"
+echo "Sega-Master System-Mark III"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Master%20System%20-%20Mark%20III/bios_E.sms" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Master%20System%20-%20Mark%20III/bios_J.sms" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Master%20System%20-%20Mark%20III/bios.sms" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Master%20System%20-%20Mark%20III/bios_U.sms" -P /storage/system/
 
-echo "Sega%20-%20Mega%20CD%20-%20Sega%20CD"
+echo "Sega-Mega CD-Sega CD"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_E.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_J.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_U.bin" -P /storage/system/
 
-echo "Sega%20-%20Mega%20Drive%20-%20Genesis"
+echo "Sega-Mega Drive-Genesis"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20Drive%20-%20Genesis/areplay.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20Drive%20-%20Genesis/bios_MD.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20Drive%20-%20Genesis/ggenie.bin" -P /storage/system/
@@ -625,7 +625,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Meg
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20Drive%20-%20Genesis/sk2chip.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Mega%20Drive%20-%20Genesis/sk.bin" -P /storage/system/
 
-echo "Sega%20-%20Saturn"
+echo "Sega-Saturn"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Saturn/hisaturn.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Saturn/mpr-17933.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Saturn/mpr-18100.bin" -P /storage/system/
@@ -638,18 +638,18 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Sat
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Saturn/sega_101.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sega%20-%20Saturn/vsaturn.bin" -P /storage/system/
 
-echo "Sharp%20-%20X1"
+echo "Sharp-X1"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X1/iplrom.x1" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X1/iplrom.x1t" -P /storage/system/
 
-echo "Sharp%20-%20X68000"
+echo "Sharp-X68000"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X68000/cgrom.dat" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X68000/iplrom30.dat" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X68000/iplromco.dat" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X68000/iplrom.dat" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sharp%20-%20X68000/iplromxv.dat" -P /storage/system/
 
-echo "Sinclair%20-%20ZX%20Spectrum"
+echo "Sinclair-ZX Spectrum"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%20ZX%20Spectrum/128-0.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%20ZX%20Spectrum/128-1.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%20ZX%20Spectrum/128p-0.rom" -P /storage/system/
@@ -700,7 +700,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%2
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%20ZX%20Spectrum/zx128.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sinclair%20-%20ZX%20Spectrum/zx48.rom" -P /storage/system/
 
-echo "SNK%20-%20NeoGeo%20CD"
+echo "SNK-NeoGeo CD"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoGeo%20CD/000-lo.lo" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoGeo%20CD/front-sp1.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoGeo%20CD/neocd.bin" -P /storage/system/
@@ -713,7 +713,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoG
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoGeo%20CD/top-sp1.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/SNK%20-%20NeoGeo%20CD/uni-bioscd.rom" -P /storage/system/
 
-echo "Sony%20-%20PlayStation"
+echo "Sony-PlayStation"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation/scph1001.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation/scph1002.bin" -P /storage/system/
@@ -735,7 +735,7 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20Pla
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation/scph7502.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation/scph9002(7502).bin" -P /storage/system/
 
-echo "Sony%20-%20PlayStation%202/pcsx2/bios"
+echo "Sony-PlayStation 2 /pcsx2/bios"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100j-20000117.bin" -P /storage/system/pcsx2/bios/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100jd-20000117.bin" -P /storage/system/pcsx2/bios/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101j-20000217.bin" -P /storage/system/pcsx2/bios/
@@ -810,10 +810,10 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20Pla
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250e-20100415.bin" -P /storage/system/pcsx2/bios/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250j-20100415.bin" -P /storage/system/pcsx2/bios/
 
-echo "Sony%20-%20PlayStation%20Portable"
+echo "Sony-PlayStation Portable"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Sony%20-%20PlayStation%20Portable/ppge_atlas.zim" -P /storage/system/
 
-echo "Videoton%20-%20TV Computer"
+echo "Videoton-TV Computer"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Videoton%20-%20TV%20Computer/tvc22_ext.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Videoton%20-%20TV%20Computer/tvc22_sys.rom" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Videoton%20-%20TV%20Computer/tvc_dos12d.rom" -P /storage/system/
@@ -821,3 +821,4 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Videoton%20-%2
 
 echo "Wolfenstein 3D"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Wolfenstein%203D/ecwolf.pk3" -P /storage/system/
+echo "That's all!"
