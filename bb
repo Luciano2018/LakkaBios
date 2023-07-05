@@ -15,11 +15,11 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/sanyotry.bin"
 
-echo "Amstrad - CPC"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc464.rom"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc6128.rom"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc664.rom"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc_amsdos.rom"
+echo "Amstrad%20-%20CPC"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc464.rom"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc6128.rom"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc664.rom"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc_amsdos.rom"
 
 echo "Arcade"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/bubsys.zip"
