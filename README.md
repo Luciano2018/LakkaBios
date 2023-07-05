@@ -21,7 +21,7 @@ Answer yes
 Password root
 ```
 ```
-curl -sSL https://raw.githubusercontent.com/Luciano2018/LakkaBios/main/lakka.sh | bash
+curl -sSL https://raw.githubusercontent.com/Luciano2018/LakkaBios/main/lakka | bash
 ```
 
 # Enjoy!
