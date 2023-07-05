@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo "3DO Company, The - 3DO"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/3do_arcade_saot.bin"
