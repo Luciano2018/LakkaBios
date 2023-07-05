@@ -376,11 +376,11 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
 
-echo "Amstrad - CPC"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc464.rom" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc6128.rom" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc664.rom" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad - CPC/cpc_amsdos.rom" -P /storage/system/
+echo "Amstrad%20-%20CPC"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
 
 echo "Arcade"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/bubsys.zip" -P /storage/system/
@@ -394,24 +394,24 @@ wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/pgm.zip
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/skns.zip" -P /storage/system/
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Arcade/ym2608.zip" -P /storage/system/
 
-echo "Atari - 400-800"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 400-800/ATARIBAS.ROM" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 400-800/ATARIOSA.ROM" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 400-800/ATARIOSB.ROM" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 400-800/ATARIXL.ROM" -P /storage/system/
+echo "Atari%20-%20400-800"
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIBAS.ROM" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIOSA.ROM" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIOSB.ROM" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20400-800/ATARIXL.ROM" -P /storage/system/
 
 echo "Atari - 5200"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 5200/5200.rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%205200/5200.rom" -P /storage/system/
 
 echo "Atari - 7800"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 7800/7800 BIOS (E).rom" -P /storage/system/
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - 7800/7800 BIOS (U).rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%207800/7800 BIOS (E).rom" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%207800/7800 BIOS (U).rom" -P /storage/system/
 
 echo "Atari - Lynx"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - Lynx/lynxboot.img" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20Lynx/lynxboot.img" -P /storage/system/
 
 echo "Atari - ST"
-wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari - ST/tos.img" -P /storage/system/
+wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Atari%20-%20ST/tos.img" -P /storage/system/
 
 echo "Coleco - ColecoVision"
 wget -c "https://github.com/Luciano2018/LakkaBios/raw/main/System/Coleco - ColecoVision/colecovision.rom" -P /storage/system/
