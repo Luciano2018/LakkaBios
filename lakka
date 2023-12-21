@@ -1,5 +1,5 @@
 #!/bin/bash
-RUTA=https://github.com/Luciano2018/LakkaBios/raw/main/System/
+RUTA=https://github.com/PIBSAS/LakkaBios/raw/main/System/
 cd
 mkdir /storage/system/dc/
 mkdir /storage/system/pcsx2/
