@@ -14,6 +14,7 @@ mkdir /storage/system/vice/
 mkdir /storage/system/xmil/
 mkdir /storage/system/pcsx2/
 mkdir /storage/system/pcsx2/bios/
+mkdir /storage/system/fuse/
 rm "/storage/system/3do_arcade_saot.bin"
 rm "/storage/system/goldstar.bin"
 rm "/storage/system/panafz10.bin"
@@ -230,17 +231,24 @@ rm "/storage/system/iplromxv.dat"
 rm "/storage/system/128-0.rom"
 rm "/storage/system/128-1.rom"
 rm "/storage/system/128p-0.rom"
+rm "/storage/system/fuse/128p-0.rom"
 rm "/storage/system/128p-1.rom"
+rm "/storage/system/fuse/128p-1.rom"
 rm "/storage/system/128-spanish-0.rom"
 rm "/storage/system/128-spanish-1.rom"
 rm "/storage/system/256s-0.rom"
+rm "/storage/system/fuse/256s-0.rom"
 rm "/storage/system/256s-1.rom"
+rm "/storage/system/fuse/256s-1.rom"
 rm "/storage/system/256s-2.rom"
+rm "/storage/system/fuse/256s-2.rom"
 rm "/storage/system/256s-3.rom"
+rm "/storage/system/fuse/256s-3.rom"
 rm "/storage/system/48.rom"
 rm "/storage/system/disciple.rom"
 rm "/storage/system/disk_plus3.szx"
 rm "/storage/system/gluck.rom"
+rm "/storage/system/fuse/gluck.rom"
 rm "/storage/system/if1-1.rom"
 rm "/storage/system/if1-2.rom"
 rm "/storage/system/plus2-0.rom"
@@ -274,6 +282,7 @@ rm "/storage/system/tc2048.rom"
 rm "/storage/system/tc2068-0.rom"
 rm "/storage/system/tc2068-1.rom"
 rm "/storage/system/trdos.rom"
+rm "/storage/system/fuse/trdos.rom"
 rm "/storage/system/zx128.rom"
 rm "/storage/system/zx48.rom"
 rm "/storage/system/000-lo.lo"
@@ -714,17 +723,24 @@ echo "Sinclair-ZX Spectrum"
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-0.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-1.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-0.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-0.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-1.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-1.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-spanish-0.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-spanish-1.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-0.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-0.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-1.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-1.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-2.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-2.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-3.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/256s-3.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/48.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/disciple.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/disk_plus3.szx" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/gluck.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/gluck.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/if1-1.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/if1-2.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/plus2-0.rom" -P /storage/system/
@@ -758,21 +774,22 @@ wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/tc2048.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/tc2068-0.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/tc2068-1.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/trdos.rom" -P /storage/system/
+wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/trdos.rom" -P /storage/system/fuse/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/zx128.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/zx48.rom" -P /storage/system/
 
 echo "SNK-NeoGeo CD"
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/000-lo.lo" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/front-sp1.bin" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd.bin" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_f.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_sf.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_st.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_sz.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_t.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_z.rom" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/top-sp1.bin" -P /storage/system/
-wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/uni-bioscd.rom" -P /storage/system/
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/000-lo.lo" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/front-sp1.bin" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd.bin" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_f.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_sf.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_st.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_sz.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_t.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_z.rom" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/top-sp1.bin" -P /storage/system/neocd
+wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/uni-bioscd.rom" -P /storage/system/neocd
 
 echo "Sony-PlayStation"
 wget -c "${RUTA}Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
