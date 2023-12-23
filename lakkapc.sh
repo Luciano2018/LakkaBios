@@ -482,42 +482,70 @@ wget -c "${RUTA}Arcade/spec128.zip" -P /storage/system/fbneo/
 wget -c "${RUTA}Arcade/spec1282a.zip" -P /storage/system/fbneo/
 wget -c "${RUTA}Arcade/channelf.zip" -P /storage/system/fbneo/
 echo
-echo "Atari-400-800"
+
+echo
+echo "Atari-5200(a5200)"
+echo
+wget -c "${RUTA}Atari%20-%205200/5200.rom" -P /storage/system/
+echo
+
+echo
+echo "Atari-5200(Atari800)"
 echo
 wget -c "${RUTA}Atari%20-%20400-800/ATARIBAS.ROM" -P /storage/system/
 wget -c "${RUTA}Atari%20-%20400-800/ATARIOSA.ROM" -P /storage/system/
 wget -c "${RUTA}Atari%20-%20400-800/ATARIOSB.ROM" -P /storage/system/
 wget -c "${RUTA}Atari%20-%20400-800/ATARIXL.ROM" -P /storage/system/
+echo
 
-echo "Atari-5200"
-wget -c "${RUTA}Atari%20-%205200/5200.rom" -P /storage/system/
+echo
+echo "Atari-7800(ProSystem)"
+wget -c "${RUTA}7800%20BIOS%20(U).rom" -P /storage/system/
+mv "7800%20BIOS%20(U).rom" "7800 BIOS (U).rom"
+echo
 
-echo "Atari-7800"
-wget -c "${RUTA}7800 BIOS (U).rom" -P /storage/system/
-
-echo "Atari-Lynx"
+echo
+echo "Atari-Lynx(Beetle Lynx AND Handy)"
 wget -c "${RUTA}Atari%20-%20Lynx/lynxboot.img" -P /storage/system/
+echo
 
-echo "Atari-ST"
+echo
+echo "Atari-ST-STE-TT-Falcon(Hatari)"
 wget -c "${RUTA}Atari%20-%20ST/tos.img" -P /storage/system/
+echo
 
+echo
 echo "Coleco-ColecoVision"
 wget -c "${RUTA}Coleco%20-%20ColecoVision/colecovision.rom" -P /storage/system/
 
-echo "Commodore-Amiga"
-wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
-wget -c "${RUTA}Commodore%20-%20Amiga/kick40063.A600" -P /storage/system/
-wget -c "${RUTA}Commodore%20-%20Amiga/kick40068.A1200" -P /storage/system/
+echo
+echo "Commodore-Amiga(PUAE 2021 and PUAE)"
+echo
 wget -c "${RUTA}kick33180.A500" -P /storage/system/
-wget -c "${RUTA}kick34005.CDTV" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
 wget -c "${RUTA}kick37175.A500" -P /storage/system/
 wget -c "${RUTA}kick37350.A600" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick40063.A600" -P /storage/system/
 wget -c "${RUTA}kick39106.A1200" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick40068.A1200" -P /storage/system/
 wget -c "${RUTA}kick39106.A4000" -P /storage/system/
+wget -c "${RUTA}kick40068.A4000" -P /storage/system/
+wget -c "${RUTA}kick34005.CDTV" -P /storage/system/
 wget -c "${RUTA}kick40060.CD32" -P /storage/system/
 wget -c "${RUTA}kick40060.CD32.ext" -P /storage/system/
-wget -c "${RUTA}kick40068.A4000" -P /storage/system/
+echo
 
+echo
+echo "Commodore - C128(VICE x128)"
+echo
+wget -c "${RUTA}vice/JiffyDOS_C64.bin" -P /storage/system/vice/
+wget -c "${RUTA}vice/JiffyDOS_C128.bin" -P /storage/system/vice/
+wget -c "${RUTA}vice/JiffyDOS1541-II.bin" -P /storage/system/vice/
+wget -c "${RUTA}vice/JiffyDOS_1571_repl310654.bin" -P /storage/system/vice/
+wget -c "${RUTA}vice/JiffyDOS_1581.bin" -P /storage/system/vice/
+echo
+
+echo
 echo "Dinothawr"
 wget -c "${RUTA}dinothawr.zip" -P /storage/system/
 
