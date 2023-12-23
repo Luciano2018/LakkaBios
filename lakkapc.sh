@@ -33,16 +33,16 @@ rm "/storage/system/cpc464.rom"
 rm "/storage/system/cpc6128.rom"
 rm "/storage/system/cpc664.rom"
 rm "/storage/system/cpc_amsdos.rom"
-rm "/storage/system/bubsys.zip"
-rm "/storage/system/cchip.zip"
-rm "/storage/system/decocass.zip"
-rm "/storage/system/isgsm.zip"
-rm "/storage/system/midssio.zip"
-rm "/storage/system/neogeo.zip"
-rm "/storage/system/nmk004.zip"
-rm "/storage/system/pgm.zip"
-rm "/storage/system/skns.zip"
-rm "/storage/system/ym2608.zip"
+rm "/storage/system/fbneo/bubsys.zip"
+rm "/storage/system/fbneo/cchip.zip"
+rm "/storage/system/fbneo/decocass.zip"
+rm "/storage/system/fbneo/isgsm.zip"
+rm "/storage/system/fbneo/midssio.zip"
+rm "/storage/system/fbneo/neogeo.zip"
+rm "/storage/system/fbneo/nmk004.zip"
+rm "/storage/system/fbneo/pgm.zip"
+rm "/storage/system/fbneo/skns.zip"
+rm "/storage/system/fbneo/ym2608.zip"
 rm "/storage/system/ATARIBAS.ROM"
 rm "/storage/system/ATARIOSA.ROM"
 rm "/storage/system/ATARIOSB.ROM"
@@ -433,8 +433,9 @@ rm "/storage/system/kick40068.A4000"
 rm "/storage/system/ps1_rom.bin"
 rm "/storage/system/psxonpsp660.bin"
 
-
+echo
 echo "The 3DO Company"
+echo
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/3do_arcade_saot.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/goldstar.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10.bin" -P /storage/system/
@@ -448,26 +449,41 @@ wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-kanji.bin" -P /storage
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-norsa.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
-
+echo
 echo "Amstrad-CPC"
+echo
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
-
-echo "Arcade"
-wget -c "${RUTA}Arcade/bubsys.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/cchip.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/decocass.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/isgsm.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/midssio.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/neogeo.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/nmk004.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/pgm.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/skns.zip" -P /storage/system/
-wget -c "${RUTA}Arcade/ym2608.zip" -P /storage/system/
-
+echo
+echo "Arcade Final Buen Neo"
+echo
+wget -c "${RUTA}Arcade/neogeo.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/neocdz.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/decocass.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/isgsm.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/midssio.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/nmk004.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/pgm.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/skns.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/ym2608.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/cchip.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/bubsys.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/namcoc69.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/namcoc70.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/namcoc75.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/coleco.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/fdsbios.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/msx.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/ngp.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/spectrum.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/spec128.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/spec1282a.zip" -P /storage/system/fbneo/
+wget -c "${RUTA}Arcade/channelf.zip" -P /storage/system/fbneo/
+echo
 echo "Atari-400-800"
+echo
 wget -c "${RUTA}Atari%20-%20400-800/ATARIBAS.ROM" -P /storage/system/
 wget -c "${RUTA}Atari%20-%20400-800/ATARIOSA.ROM" -P /storage/system/
 wget -c "${RUTA}Atari%20-%20400-800/ATARIOSB.ROM" -P /storage/system/
