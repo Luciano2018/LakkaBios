@@ -450,12 +450,16 @@ wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-norsa.bin" -P /storage
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
 echo
+
+echo
 echo "Amstrad-CPC"
 echo
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
 wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
+echo
+
 echo
 echo "Arcade Final Buen Neo"
 echo
@@ -517,6 +521,7 @@ echo
 echo
 echo "Coleco-ColecoVision"
 wget -c "${RUTA}Coleco%20-%20ColecoVision/colecovision.rom" -P /storage/system/
+echo
 
 echo
 echo "Commodore-Amiga(PUAE 2021 and PUAE)"
@@ -550,6 +555,117 @@ echo "Dinothawr"
 wget -c "${RUTA}dinothawr.zip" -P /storage/system/
 echo
 
+echo
+echo "Doom(PrBoom)"
+wget -c "${RUTA}Id%20Software%20-%20Doom/prboom.wad" -P /storage/system/
+echo
+
+echo
+echo "Fairchild ChannelF(FreeChaF)"
+wget -c "${RUTA}Fairchild%20Channel%20F/sl31253.bin" -P /storage/system/
+wget -c "${RUTA}Fairchild%20Channel%20F/sl31254.bin" -P /storage/system/
+wget -c "${RUTA}Fairchild%20Channel%20F/sl90025.bin" -P /storage/system/
+echo
+
+echo
+echo "Magnavox - Odyssey2/Phillips Videopac+(O2EM)"
+wget -c "${RUTA}Magnavox%20-%20Odyssey2/o2rom.bin" -P /storage/system/
+wget -c "${RUTA}Phillips%20-%20Videopac+/c52.bin" -P /storage/system/
+wget -c "${RUTA}Phillips%20-%20Videopac+/g7400.bin" -P /storage/system/
+wget -c "${RUTA}Phillips%20-%20Videopac+/jopac.bin" -P /storage/system/
+echo
+
+echo
+echo "Mattel-Intellivision(FreeIntv)"
+wget -c "${RUTA}Mattel%20-%20Intellivision/exec.bin" -P /storage/system/
+wget -c "${RUTA}Mattel%20-%20Intellivision/grom.bin" -P /storage/system/
+echo
+
+echo
+echo "Microsoft-MSX(fMSX)"
+wget -c "${RUTA}Microsoft%20-%20MSX/MSX.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/MSX2.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/MSX2EXT.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/MSX2P.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/MSX2PEXT.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/DISK.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/FMPAC.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/MSXDOS2.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/PAINTER.ROM" -P /storage/system/
+wget -c "${RUTA}Microsoft%20-%20MSX/KANJI.ROM" -P /storage/system/
+echo
+#wget -c "${RUTA}Microsoft%20-%20MSX/CARTS.SHA" -P /storage/system/
+#wget -c "${RUTA}Microsoft%20-%20MSX/CYRILLIC.FNT" -P /storage/system/
+#wget -c "${RUTA}Microsoft%20-%20MSX/FMPAC16.ROM" -P /storage/system/
+#wget -c "${RUTA}Microsoft%20-%20MSX/ITALIC.FNT" -P /storage/system/
+#wget -c "${RUTA}Microsoft%20-%20MSX/RS232.ROM" -P /storage/system/
+echo
+
+echo
+echo "MSX/SVI/ColecoVision/SG-1000(blueMSX)"
+echo "System/Machines"
+echo "System/Databases"
+echo
+
+echo
+echo "NEC-PC Engine/CD/SuperGrafx(Beetle PCE FAST and Beetle PCE and Beetle SuperGrafx)"
+echo
+wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3.pce" -P /storage/system/
+wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard2.pce" -P /storage/system/
+wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard1.pce" -P /storage/system/
+wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gexpress.pce" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gecard.pce" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard2u.pce" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3u.pce" -P /storage/system/
+echo
+
+echo
+echo "NEC - PC-8800/PC-8800 series(QUASI88)"
+wget -c "${RUTA}quasi88/ " -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88_0.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88_1.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88_2.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88_3.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88n.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/disk.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88knj1.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88knj2.rom" -P /storage/system/quasi88/
+wget -c "${RUTA}quasi88/n88jisho.rom" -P /storage/system/quasi88/
+echo
+
+echo
+echo "NEC-PC-98(Neko Project II Kai)"
+wget -c "${RUTA}NEC%20-%20PC-98/font.bmp" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/FONT.ROM" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/bios.rom" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/itf.rom" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/sound.rom" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_BD.WAV" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_SD.WAV" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_TOP.WAV" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_HH.WAV" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_TOM.WAV" -P /storage/system/np2kai/
+wget -c "${RUTA}NEC%20-%20PC-98/2608_RIM.WAV" -P /storage/system/np2kai/
+echo
+
+echo
+echo "NEC - PC-FX(Beetle PC-FX)"
+wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC-FX/fx-scsi.rom" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC-FX/pcfxbios.bin" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC-FX/pcfxga.rom" -P /storage/system/
+#wget -c "${RUTA}NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
+echo
+
+echo "Nintendo - DS(DeSmuME 2015)"
+wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
+wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
+wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
+
+echo
 echo "Enterprise-64-128"
 wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
 wget -c "${RUTA}Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
@@ -563,82 +679,25 @@ wget -c "${RUTA}Enterprise%20-%2064-128/exos24uk.rom" -P /storage/system/
 wget -c "${RUTA}Enterprise%20-%2064-128/hun.rom" -P /storage/system/
 wget -c "${RUTA}Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
 wget -c "${RUTA}Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
+echo
 
-echo "Fairchild Channel F"
-wget -c "${RUTA}Fairchild%20Channel%20F/sl31253.bin" -P /storage/system/
-wget -c "${RUTA}Fairchild%20Channel%20F/sl31254.bin" -P /storage/system/
-wget -c "${RUTA}Fairchild%20Channel%20F/sl90025.bin" -P /storage/system/
-
-echo "Id Software-Doom"
-wget -c "${RUTA}Id%20Software%20-%20Doom/prboom.wad" -P /storage/system/
-
+echo
 echo "J2ME"
 wget -c "${RUTA}J2ME/freej2me.jar" -P /storage/system/
 wget -c "${RUTA}J2ME/freej2me-lr.jar" -P /storage/system/
 wget -c "${RUTA}J2ME/freej2me-sdl.jar" -P /storage/system/
+echo
 
+echo
 echo "MacII"
 wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
+echo
 
-echo "Magnavox-Odyssey2"
-wget -c "${RUTA}Magnavox%20-%20Odyssey2/o2rom.bin" -P /storage/system/
 
-echo "Mattel-Intellivision"
-wget -c "${RUTA}Mattel%20-%20Intellivision/exec.bin" -P /storage/system/
-wget -c "${RUTA}Mattel%20-%20Intellivision/grom.bin" -P /storage/system/
 
-echo "Microsoft-MSX"
-wget -c "${RUTA}Microsoft%20-%20MSX/CARTS.SHA" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/CYRILLIC.FNT" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/DISK.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/FMPAC16.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/FMPAC.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/ITALIC.FNT" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/KANJI.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSX2EXT.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSX2PEXT.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSX2P.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSX2.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSXDOS2.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/MSX.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/PAINTER.ROM" -P /storage/system/
-wget -c "${RUTA}Microsoft%20-%20MSX/RS232.ROM" -P /storage/system/
 
-echo "NEC-PC-98"
-wget -c "${RUTA}NEC%20-%20PC-98/2608_bd.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/2608_hh.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/2608_rim.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/2608_sd.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/2608_tom.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/2608_top.wav" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/bios.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/font.bmp" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/font.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/itf.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-98/sound.rom" -P /storage/system/
 
-echo "NEC-PC Engine-TurboGrafx 16-SuperGrafx"
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gecard.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/gexpress.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard1.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard2.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard2u.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3.pce" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC%20Engine%20-%20TurboGrafx%2016%20-%20SuperGrafx/syscard3u.pce" -P /storage/system/
 
-echo "NEC-PC-FX"
-wget -c "${RUTA}NEC%20-%20PC-FX/fx-scsi.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-FX/pcfxbios.bin" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-FX/pcfxga.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
-wget -c "${RUTA}NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
-
-echo "Nintendo DS"
-wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
-wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
-wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
-wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
-wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 
 echo "Nintendo-Famicom Disk System"
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
@@ -716,12 +775,9 @@ wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.d
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.program.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
+echo
 
-echo "Phillips-Videopac+"
-wget -c "${RUTA}Phillips%20-%20Videopac+/c52.bin" -P /storage/system/
-wget -c "${RUTA}Phillips%20-%20Videopac+/g7400.bin" -P /storage/system/
-wget -c "${RUTA}Phillips%20-%20Videopac+/jopac.bin" -P /storage/system/
-
+echo
 echo "ScummVM"
 wget -c "${RUTA}ScummVM/scummvm.zip" -P /storage/system/
 
