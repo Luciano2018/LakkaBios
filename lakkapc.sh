@@ -434,33 +434,6 @@ rm "/storage/system/ps1_rom.bin"
 rm "/storage/system/psxonpsp660.bin"
 
 echo
-echo "The 3DO Company"
-echo
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/3do_arcade_saot.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/goldstar.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10e-anvil.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10e-anvil-norsa.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10ja-anvil-kanji.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10-norsa.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-kanji.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-norsa.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
-wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
-echo
-
-echo
-echo "Amstrad-CPC"
-echo
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
-echo
-
-echo
 echo "Arcade Final Buen Neo"
 echo
 wget -c "${RUTA}Arcade/neogeo.zip" -P /storage/system/fbneo/
@@ -905,71 +878,13 @@ wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/uni-bioscd.rom" -P /storage/system/neocd/
 echo
 
 echo
-echo "Enterprise-64-128"
-wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/brd.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/epd19hft.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/epfileio.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exdos13.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos20.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos21.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos24uk.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/hun.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
-echo
-
-echo
-echo "J2ME"
-wget -c "${RUTA}J2ME/freej2me.jar" -P /storage/system/
-wget -c "${RUTA}J2ME/freej2me-lr.jar" -P /storage/system/
-wget -c "${RUTA}J2ME/freej2me-sdl.jar" -P /storage/system/
-echo
-
-echo
-echo "MacII"
-wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
-echo
-
-
-echo "Nintendo-GameCube"
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020402.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020823.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-10.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-11.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-12.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-10.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
-echo
-
-echo "Nintendo-Nintendo Entertainment System"
-wget -c "${RUTA}Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
-
-
-
-echo "Nintendo-Satellaview"
-
-wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
-echo
-
-
-
-
-
-
-
-
-
-
-
-
-
-echo "Sony-PlayStation"
+echo "Sony - PlayStation(Beetle PSX HW - PCSX ReARMed - SwanStation)"
+wget -c "${RUTA}Sony%20-%20PlayStation/scph5500.bin" -P /storage/system/
+wget -c "${RUTA}Sony%20-%20PlayStation/scph5501.bin" -P /storage/system/
+wget -c "${RUTA}Sony%20-%20PlayStation/scph5502.bin" -P /storage/system/
+wget -c "${RUTA}psxonpsp660.bin" -P /storage/system/
+wget -c "${RUTA}ps1_rom.bin" -P /storage/system/
+#comentar
 wget -c "${RUTA}Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph1001.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph1002.bin" -P /storage/system/
@@ -981,17 +896,16 @@ wget -c "${RUTA}Sony%20-%20PlayStation/scph102C.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph3000.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph3500.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5000.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph5500.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph5501.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph5502.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph5552.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph7001.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph7002.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph7003.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph7502.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph9002(7502).bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph5552.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph7001.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph7002.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph7003.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph7502.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph9002(7502).bin" -P /storage/system/
+echo
 
-echo "Sony-PlayStation 2 /pcsx2/bios"
+echo "Sony - PlayStation 2(PCSX2)"
+#comentar
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100j-20000117.bin" -P /storage/system/pcsx2/bios/
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100jd-20000117.bin" -P /storage/system/pcsx2/bios/
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101j-20000217.bin" -P /storage/system/pcsx2/bios/
@@ -1065,18 +979,100 @@ wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230h-20080220.bin" -P
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230j-20080220.bin" -P /storage/system/pcsx2/bios/
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250e-20100415.bin" -P /storage/system/pcsx2/bios/
 wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250j-20100415.bin" -P /storage/system/pcsx2/bios/
+echo
 
-echo "Sony-PlayStation Portable"
+echo
+echo "Sony - PlayStation Portable(PPSSPP)"
 wget -c "${RUTA}Sony%20-%20PlayStation%20Portable/ppge_atlas.zim" -P /storage/system/
-wget -c "${RUTA}ps1_rom.bin" -P /storage/system/
-wget -c "${RUTA}psxonpsp660.bin" -P /storage/system/
+echo
 
+echo
+echo "The 3DO Company(Opera)"
+echo
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10-norsa.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10e-anvil.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10e-anvil-norsa.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/goldstar.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/sanyotry.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/3do_arcade_saot.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1-kanji.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz10ja-anvil-kanji.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-norsa.bin" -P /storage/system/
+wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-kanji.bin" -P /storage/system/
+echo
+echo
+echo "Wolfenstein 3D(ECWolf)"
+wget -c "${RUTA}Wolfenstein%203D/ecwolf.pk3" -P /storage/system/
+echo
+
+echo
+echo "That's all!"
+
+#Nada más comentar
+echo
 echo "Videoton-TV Computer"
 wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_ext.rom" -P /storage/system/
 wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_sys.rom" -P /storage/system/
 wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc_dos12d.rom" -P /storage/system/
 wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvcfileio.rom" -P /storage/system/
 
-echo "Wolfenstein 3D"
-wget -c "${RUTA}Wolfenstein%203D/ecwolf.pk3" -P /storage/system/
-echo "That's all!"
+echo
+echo "Enterprise-64-128"
+wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/brd.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/epd19hft.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/epfileio.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/exdos13.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/exos20.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/exos21.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/exos24uk.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/hun.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
+wget -c "${RUTA}Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
+echo
+
+echo
+echo "J2ME"
+wget -c "${RUTA}J2ME/freej2me.jar" -P /storage/system/
+wget -c "${RUTA}J2ME/freej2me-lr.jar" -P /storage/system/
+wget -c "${RUTA}J2ME/freej2me-sdl.jar" -P /storage/system/
+echo
+
+echo
+echo "MacII"
+wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
+echo
+
+echo "Nintendo-GameCube"
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020402.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020823.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-10.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-11.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-12.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-10.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
+echo
+
+echo "Nintendo-Nintendo Entertainment System"
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
+
+echo "Nintendo-Satellaview"
+
+wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
+
+echo
+echo "Amstrad-CPC"
+echo
+wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
+wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
+wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
+wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
+echo
