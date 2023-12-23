@@ -658,12 +658,146 @@ wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
 #wget -c "${RUTA}NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
 echo
 
-echo "Nintendo - DS(DeSmuME 2015)"
+echo "Nintendo - DS(DeSmuME 2015 and DeSmuME and melonDS)"
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/firmware.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios7.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
+wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
 wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
 wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
-wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
-wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
+${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
+echo
+
+echo
+echo "Nintendo - Game Boy/Color(Gambatte and SameBoy)"
+wget -c "${RUTA}Nintendo%20-%20Gameboy/gb_bios.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/gbc_bios.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Gameboy/dmg_boot.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/cgb_boot.bin" -P /storage/system/
+echo
+
+echo
+echo "Nintendo-Game Boy Advance(gpSP and mGBA and VBA-M)"
+wget -c "${RUTA}Nintendo%20-%20Game%20Boy%20Advance/gba_bios.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb_bios.bin" -P /storage/system/
+echo
+
+echo
+echo "Nintendo - NES/Famicom(FCEUmm and Mesen and Nestopia UE)"
+wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/nes.pal" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/gamegenie.nes" -P /storage/system/
+echo
+
+echo
+echo "Nintendo - Nintendo 64(ParaLLEI N64)"
+wget -c "${RUTA}Nintendo%20-%20Nintendo%2064DD/64DD_IPL.bin" -P /storage/system/
+echo
+
+echo
+echo "Nintendo - Pokemon Mini(PokeMini)"
+wget -c "${RUTA}Nintendo%20-%20Pokemon%20Mini/bios.min" -P /storage/system/
+echo
+
+echo
+echo "Nintendo - SNES/Famicom/SFC/Game Voy/Color(higan Accuracy - nSide Balanced - bsnes 2014 Performance - bsnes - bsnes-hd beta - bsnes-mercury Performance - Snes9x-Current - Mesen-S)"
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp2.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp2.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp3.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp3.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp4.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp4.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/cx4.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st010.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st010.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb1.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb2.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
+echo
+echo "revisar PC"
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_bios.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.program.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
+echo "fin revisar"
+
+echo
+echo "Palm OS(Mu)"
+wget -c "${RUTA}palmos40-en-m500.rom" -P /storage/system/
+wget -c "${RUTA}palmos41-en-m515.rom" -P /storage/system/
+wget -c "${RUTA}palmos52-en-t3.rom" -P /storage/system/
+wget -c "${RUTA}palmos60-en-t3.rom" -P /storage/system/
+wget -c "${RUTA}bootloader-dbvz.rom" -P /storage/system/
+echo
+
+echo
+echo "Phillips - CDi(SAME CDi)"
+wget -c "${RUTA}same_cdi/bios/cdimono1.zip" -P /storage/system/same_cdi/bios/
+wget -c "${RUTA}same_cdi/bios/cdimono2.zip" -P /storage/system/same_cdi/bios/
+wget -c "${RUTA}same_cdi/bios/cdibios.zip" -P /storage/system/same_cdi/bios/
+echo
+
+echo
+echo "ScummVM"
+wget -c "${RUTA}ScummVM/scummvm.zip" -P /storage/system/
+echo
+
+echo
+echo "Sega-Dreamcast/Naomi(Flycast)"
+wget -c "${RUTA}Sega%20-%20Dreamcast/dc/boot.bin" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi2.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/hod2bios.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/f355dlx.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/f355bios.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/airlbios.zip" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/awbios.zip" -P /storage/system/dc/
+#wget -c "${RUTA}Sega%20-%20Dreamcast/dc/dc_boot.bin" -P /storage/system/dc/
+#wget -c "${RUTA}Sega%20-%20Dreamcast/dc/flash.bin" -P /storage/system/dc/
+echo
+
+echo
+echo "Sega-MS/GG/MD/CD/32X(Emux SMS - Génesis Plus GX/ Wide - PicoDrive)"
+wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios.sms" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/bios_MD.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_E.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_J.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_U.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_E.sms" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_U.sms" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_J.sms" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Game%20Gear/bios.gg" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/sk.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/sk2chip.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/areplay.bin" -P /storage/system/
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/ggenie.bin" -P /storage/system/
+echo
+
+echo
+echo "Sega-Mega Drive-Genesis(BlastEm)"
+wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/rom.db" -P /storage/system/
+
+
+
+
+
 
 echo
 echo "Enterprise-64-128"
@@ -694,25 +828,6 @@ wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
 echo
 
 
-
-
-
-
-
-echo "Nintendo-Famicom Disk System"
-wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
-
-echo "Nintendo-Gameboy"
-wget -c "${RUTA}Nintendo%20-%20Gameboy/dmg_boot.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Gameboy/gb_bios.bin" -P /storage/system/
-
-echo "Nintendo-Game Boy Advance"
-wget -c "${RUTA}Nintendo%20-%20Game%20Boy%20Advance/gba_bios.bin" -P /storage/system/
-
-echo "Nintendo-Gameboy Color"
-wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/cgb_boot.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/gbc_bios.bin" -P /storage/system/
-
 echo "Nintendo-GameCube"
 wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
@@ -724,98 +839,22 @@ wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-12.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-10.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
-
-echo "Nintendo-Nintendo 64DD"
-wget -c "${RUTA}Nintendo%20-%20Nintendo%2064DD/64DD_IPL.bin" -P /storage/system/
-
-echo "Nintendo-Nintendo DS"
-wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios7.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/firmware.bin" -P /storage/system/
+echo
 
 echo "Nintendo-Nintendo Entertainment System"
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
 
-echo "Nintendo-Pokemon Mini"
-wget -c "${RUTA}Nintendo%20-%20Pokemon%20Mini/bios.min" -P /storage/system/
+
 
 echo "Nintendo-Satellaview"
-wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
+
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
-
-echo "Nintendo-SuFami Turbo"
-wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
-
-echo "Nintendo-Super Game Boy"
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_bios.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb_bios.bin" -P /storage/system/
-
-echo "Nintendo-Super Nintendo Entertainment System"
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/cx4.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp2.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp2.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp3.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp3.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp4.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp4.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st010.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st010.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
 echo
 
-echo
-echo "ScummVM"
-wget -c "${RUTA}ScummVM/scummvm.zip" -P /storage/system/
 
-echo "Sega-Dreamcast/dc"
-wget -c "${RUTA}Sega%20-%20Dreamcast/dc/boot.bin" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast/dc/dc_boot.bin" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast/dc/flash.bin" -P /storage/system/dc/
 
-echo "Sega-Dreamcast-based Arcade/dc"
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/airlbios.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/awbios.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/f355bios.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/f355dlx.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/hod2bios.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi2.zip" -P /storage/system/dc/
-wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi.zip" -P /storage/system/dc/
 
-echo "Sega-Game Gear"
-wget -c "${RUTA}Sega%20-%20Game%20Gear/bios.gg" -P /storage/system/
-
-echo "Sega-Master System-Mark III"
-wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_E.sms" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_J.sms" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios.sms" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios_U.sms" -P /storage/system/
-
-echo "Sega-Mega CD-Sega CD"
-wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_E.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_J.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_U.bin" -P /storage/system/
-
-echo "Sega-Mega Drive-Genesis"
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/areplay.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/bios_MD.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/ggenie.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/rom.db" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/sk2chip.bin" -P /storage/system/
-wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/sk.bin" -P /storage/system/
 
 echo "Sega-Saturn"
 wget -c "${RUTA}Sega%20-%20Saturn/hisaturn.bin" -P /storage/system/
