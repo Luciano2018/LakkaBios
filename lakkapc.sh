@@ -536,7 +536,7 @@ wget -c "${RUTA}kick40060.CD32.ext" -P /storage/system/
 echo
 
 echo
-echo "Commodore - C128(VICE x128)"
+echo "Commodore - C128(VICE x128 and VICE x64, fast)"
 echo
 wget -c "${RUTA}vice/JiffyDOS_C64.bin" -P /storage/system/vice/
 wget -c "${RUTA}vice/JiffyDOS_C128.bin" -P /storage/system/vice/
@@ -548,6 +548,7 @@ echo
 echo
 echo "Dinothawr"
 wget -c "${RUTA}dinothawr.zip" -P /storage/system/
+echo
 
 echo "Enterprise-64-128"
 wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
