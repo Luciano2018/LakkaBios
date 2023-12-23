@@ -1,5 +1,6 @@
 #!/bin/bash
 RUTA=https://github.com/PIBSAS/LakkaBios/raw/main/System/
+RUTA_ARCH=https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/
 cd
 mkdir /storage/system/dc/
 mkdir /storage/system/fbneo/
@@ -418,6 +419,8 @@ rm "/storage/system/dinothawr.zip"
 rm "/storage/system/dsi_bios7.bin"
 rm "/storage/system/dsi_bios9.bin"
 rm "/storage/system/dsi_firmware.bin"
+rm "/storage/system/dsi_nand.bin"
+rm "/storage/system/dsi_sd_card.bin"
 rm "/storage/system/kick33180.A500"
 rm "/storage/system/kick34005.CDTV"
 rm "/storage/system/kick37175.A500"
@@ -474,8 +477,7 @@ echo "Atari-5200"
 wget -c "${RUTA}Atari%20-%205200/5200.rom" -P /storage/system/
 
 echo "Atari-7800"
-wget -c "${RUTA}Atari%20-%207800/7800%20BIOS%20(E).rom" -P /storage/system/
-wget -c "${RUTA}Atari%20-%207800/7800%20BIOS%20(U).rom" -P /storage/system/
+wget -c "${RUTA}7800 BIOS (U).rom" -P /storage/system/
 
 echo "Atari-Lynx"
 wget -c "${RUTA}Atari%20-%20Lynx/lynxboot.img" -P /storage/system/
@@ -490,6 +492,18 @@ echo "Commodore-Amiga"
 wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick40063.A600" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick40068.A1200" -P /storage/system/
+wget -c "${RUTA}kick33180.A500" -P /storage/system/
+wget -c "${RUTA}kick34005.CDTV" -P /storage/system/
+wget -c "${RUTA}kick37175.A500" -P /storage/system/
+wget -c "${RUTA}kick37350.A600" -P /storage/system/
+wget -c "${RUTA}kick39106.A1200" -P /storage/system/
+wget -c "${RUTA}kick39106.A4000" -P /storage/system/
+wget -c "${RUTA}kick40060.CD32" -P /storage/system/
+wget -c "${RUTA}kick40060.CD32.ext" -P /storage/system/
+wget -c "${RUTA}kick40068.A4000" -P /storage/system/
+
+echo "Dinothawr"
+wget -c "${RUTA}dinothawr.zip" -P /storage/system/
 
 echo "Enterprise-64-128"
 wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
@@ -573,6 +587,13 @@ wget -c "${RUTA}NEC%20-%20PC-FX/pcfxbios.bin" -P /storage/system/
 wget -c "${RUTA}NEC%20-%20PC-FX/pcfxga.rom" -P /storage/system/
 wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
 wget -c "${RUTA}NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
+
+echo "Nintendo DS"
+wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
+wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
+wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 
 echo "Nintendo-Famicom Disk System"
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
@@ -890,6 +911,8 @@ wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250j-20100415.bin" -P
 
 echo "Sony-PlayStation Portable"
 wget -c "${RUTA}Sony%20-%20PlayStation%20Portable/ppge_atlas.zim" -P /storage/system/
+wget -c "${RUTA}ps1_rom.bin" -P /storage/system/
+wget -c "${RUTA}psxonpsp660.bin" -P /storage/system/
 
 echo "Videoton-TV Computer"
 wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_ext.rom" -P /storage/system/
