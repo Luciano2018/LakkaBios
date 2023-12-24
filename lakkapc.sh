@@ -499,18 +499,18 @@ echo
 echo
 echo "Commodore-Amiga(PUAE 2021 and PUAE)"
 echo
-wget -c "${RUTA}kick33180.A500" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick33180.A500" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
-wget -c "${RUTA}kick37175.A500" -P /storage/system/
-wget -c "${RUTA}kick37350.A600" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick37175.A500" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick37350.A600" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick40063.A600" -P /storage/system/
-wget -c "${RUTA}kick39106.A1200" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick39106.A1200" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick40068.A1200" -P /storage/system/
-wget -c "${RUTA}kick39106.A4000" -P /storage/system/
-wget -c "${RUTA}kick40068.A4000" -P /storage/system/
-wget -c "${RUTA}kick34005.CDTV" -P /storage/system/
-wget -c "${RUTA}kick40060.CD32" -P /storage/system/
-wget -c "${RUTA}kick40060.CD32.ext" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick39106.A4000" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick40068.A4000" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.CDTV" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick40060.CD32" -P /storage/system/
+wget -c "${RUTA}Commodore%20-%20Amiga/kick40060.CD32.ext" -P /storage/system/
 echo
 
 echo
@@ -594,7 +594,6 @@ echo
 
 echo
 echo "NEC - PC-8800/PC-8800 series(QUASI88)"
-wget -c "${RUTA}quasi88/ " -P /storage/system/quasi88/
 wget -c "${RUTA}quasi88/n88.rom" -P /storage/system/quasi88/
 wget -c "${RUTA}quasi88/n88_0.rom" -P /storage/system/quasi88/
 wget -c "${RUTA}quasi88/n88_1.rom" -P /storage/system/quasi88/
@@ -638,12 +637,12 @@ wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
 wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
 wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
 wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
-${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 echo
 
 echo
-echo "Nintendo - Game Boy/Color(Gambatte and SameBoy)"
+echo "Nintendo - Game Boy/Color(Gambatte - SameBoy)"
 wget -c "${RUTA}Nintendo%20-%20Gameboy/gb_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/gbc_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Gameboy/dmg_boot.bin" -P /storage/system/
@@ -651,13 +650,13 @@ wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/cgb_boot.bin" -P /storage/system/
 echo
 
 echo
-echo "Nintendo-Game Boy Advance(gpSP and mGBA and VBA-M)"
+echo "Nintendo-Game Boy Advance(gpSP - mGBA - VBA-M)"
 wget -c "${RUTA}Nintendo%20-%20Game%20Boy%20Advance/gba_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb_bios.bin" -P /storage/system/
 echo
 
 echo
-echo "Nintendo - NES/Famicom(FCEUmm and Mesen and Nestopia UE)"
+echo "Nintendo - NES/Famicom(FCEUmm - Mesen - Nestopia UE)"
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/nes.pal" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/gamegenie.nes" -P /storage/system/
@@ -674,7 +673,8 @@ wget -c "${RUTA}Nintendo%20-%20Pokemon%20Mini/bios.min" -P /storage/system/
 echo
 
 echo
-echo "Nintendo - SNES/Famicom/SFC/Game Voy/Color(higan Accuracy - nSide Balanced - bsnes 2014 Performance - bsnes - bsnes-hd beta - bsnes-mercury Performance - Snes9x-Current - Mesen-S)"
+echo "Nintendo - SNES/Famicom/SFC/Game Voy/Color(higan Accuracy - nSide Balanced)"
+echo "(bsnes 2014 Performance - bsnes - bsnes-hd beta - bsnes-mercury Performance - Snes9x-Current - Mesen-S)"
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.data.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.program.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.data.rom" -P /storage/system/
@@ -701,15 +701,14 @@ wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sf
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
 echo
-echo "revisar PC"
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_bios.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
-echo "fin revisar"
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_bios.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.boot.rom" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.program.rom" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
+echo
 
 echo
 echo "Palm OS(Mu)"
@@ -884,18 +883,18 @@ wget -c "${RUTA}Sony%20-%20PlayStation/scph5501.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5502.bin" -P /storage/system/
 wget -c "${RUTA}psxonpsp660.bin" -P /storage/system/
 wget -c "${RUTA}ps1_rom.bin" -P /storage/system/
-#comentar
-wget -c "${RUTA}Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph1001.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph1002.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph100.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph101.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph102A.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph102B.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph102C.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph3000.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph3500.bin" -P /storage/system/
-wget -c "${RUTA}Sony%20-%20PlayStation/scph5000.bin" -P /storage/system/
+echo
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph1001.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph1002.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph100.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph101.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph102A.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph102B.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph102C.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph3000.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph3500.bin" -P /storage/system/
+#wget -c "${RUTA}Sony%20-%20PlayStation/scph5000.bin" -P /storage/system/
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph5552.bin" -P /storage/system/
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph7001.bin" -P /storage/system/
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph7002.bin" -P /storage/system/
@@ -905,80 +904,79 @@ wget -c "${RUTA}Sony%20-%20PlayStation/scph5000.bin" -P /storage/system/
 echo
 
 echo "Sony - PlayStation 2(PCSX2)"
-#comentar
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100j-20000117.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100jd-20000117.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101j-20000217.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101jd-20000217.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101xd-20000224.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0110a-20000727.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0110ad-20000727.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120a-20000902.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120e-20000902.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120ed-20000902-20030110.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120ed-20000902.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120j-20001027-185015.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120j-20001027-191435.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150a-20001228.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150ad-20001228-20030520.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150e-20001228.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150ed-20001228-20030520.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150j-20010118.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150jd-20010118.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20010427.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20010704.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20011004.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20020207.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20010704.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20011004.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20020319.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20020426.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160h-20010730.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160h-20020426.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160j-20010427.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160j-20020426.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170a-20030325.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170ad-20030325.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170e-20030227.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170ed-20030227.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170j-20030206.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0180cd-20030224.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0180j-20031028.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190a-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190a-20040329.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190c-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190e-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190e-20030822.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190h-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190j-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190j-20030822.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190r-20030623.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200a-20040614.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200e-20040614.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200ed-20040614.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200h-20040614.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200j-20040614.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0210j-20040917.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20050620.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20060210.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20060905.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220ad-20050620.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220ad-20060905.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20050620.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20060210.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20060905.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20050620.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20060210.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20060905.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20050620.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20060210.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20060905.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230a-20080220.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230e-20080220.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230h-20080220.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230j-20080220.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250e-20100415.bin" -P /storage/system/pcsx2/bios/
-wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250j-20100415.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100j-20000117.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100jd-20000117.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101j-20000217.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101jd-20000217.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101xd-20000224.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0110a-20000727.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0110ad-20000727.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120a-20000902.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120e-20000902.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120ed-20000902-20030110.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120ed-20000902.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120j-20001027-185015.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0120j-20001027-191435.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150a-20001228.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150ad-20001228-20030520.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150e-20001228.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150ed-20001228-20030520.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150j-20010118.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0150jd-20010118.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20010427.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20010704.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20011004.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160a-20020207.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20010704.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20011004.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20020319.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160e-20020426.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160h-20010730.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160h-20020426.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160j-20010427.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0160j-20020426.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170a-20030325.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170ad-20030325.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170e-20030227.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170ed-20030227.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0170j-20030206.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0180cd-20030224.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0180j-20031028.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190a-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190a-20040329.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190c-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190e-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190e-20030822.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190h-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190j-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190j-20030822.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0190r-20030623.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200a-20040614.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200e-20040614.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200ed-20040614.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200h-20040614.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0200j-20040614.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0210j-20040917.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20050620.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20060210.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220a-20060905.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220ad-20050620.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220ad-20060905.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20050620.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20060210.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220e-20060905.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20050620.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20060210.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220h-20060905.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20050620.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20060210.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0220j-20060905.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230a-20080220.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230e-20080220.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230h-20080220.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0230j-20080220.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250e-20100415.bin" -P /storage/system/pcsx2/bios/
+#wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0250j-20100415.bin" -P /storage/system/pcsx2/bios/
 echo
 
 echo
@@ -1003,6 +1001,7 @@ wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j.bin" -P /storage/syste
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-norsa.bin" -P /storage/system/
 wget -c "${RUTA}3DO%20Company%2C%20The%20-%203DO/panafz1j-kanji.bin" -P /storage/system/
 echo
+
 echo
 echo "Wolfenstein 3D(ECWolf)"
 wget -c "${RUTA}Wolfenstein%203D/ecwolf.pk3" -P /storage/system/
@@ -1012,67 +1011,66 @@ echo
 echo "That's all!"
 
 #Nada más comentar
-echo
-echo "Videoton-TV Computer"
-wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_ext.rom" -P /storage/system/
-wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_sys.rom" -P /storage/system/
-wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc_dos12d.rom" -P /storage/system/
-wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvcfileio.rom" -P /storage/system/
+#echo
+#echo "Videoton-TV Computer"
+#wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_ext.rom" -P /storage/system/
+#wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc22_sys.rom" -P /storage/system/
+#wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvc_dos12d.rom" -P /storage/system/
+#wget -c "${RUTA}Videoton%20-%20TV%20Computer/tvcfileio.rom" -P /storage/system/
 
-echo
-echo "Enterprise-64-128"
-wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/brd.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/epd19hft.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/epfileio.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exdos13.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos20.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos21.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/exos24uk.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/hun.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
-wget -c "${RUTA}Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
-echo
+#echo
+#echo "Enterprise-64-128"
+#wget -c "${RUTA}Enterprise%20-%2064-128/basic20.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/basic21.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/brd.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/epd19hft.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/epfileio.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/exdos13.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/exos20.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/exos21.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/exos24uk.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/hun.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/zt18hfnt.rom" -P /storage/system/
+#wget -c "${RUTA}Enterprise%20-%2064-128/zt19uk.rom" -P /storage/system/
+#echo
 
-echo
-echo "J2ME"
-wget -c "${RUTA}J2ME/freej2me.jar" -P /storage/system/
-wget -c "${RUTA}J2ME/freej2me-lr.jar" -P /storage/system/
-wget -c "${RUTA}J2ME/freej2me-sdl.jar" -P /storage/system/
-echo
+#echo
+#echo "J2ME"
+#wget -c "${RUTA}J2ME/freej2me.jar" -P /storage/system/
+#wget -c "${RUTA}J2ME/freej2me-lr.jar" -P /storage/system/
+#wget -c "${RUTA}J2ME/freej2me-sdl.jar" -P /storage/system/
+#echo
 
-echo
-echo "MacII"
-wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
-echo
+#echo
+#echo "MacII"
+#wget -c "${RUTA}MacII/MacII.ROM" -P /storage/system/
+#echo
 
-echo "Nintendo-GameCube"
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020402.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020823.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-10.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-11.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-12.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-10.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
-echo
+#echo "Nintendo-GameCube"
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010608.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20010831.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020402.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-dvd-20020823.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-10.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-11.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-ntsc-12.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-10.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-11.bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20GameCube/gc-pal-12.bin" -P /storage/system/
+#echo
 
-echo "Nintendo-Nintendo Entertainment System"
-wget -c "${RUTA}Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
+#echo "Nintendo-Nintendo Entertainment System"
+#wget -c "${RUTA}Nintendo%20-%20Nintendo%20Entertainment%20System/NstDatabase.xml" -P /storage/system/
 
-echo "Nintendo-Satellaview"
+#echo "Nintendo-Satellaview"
+#wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
+#wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
 
-wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En).bin" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X%20(En)%20(DRM-Free).bin" -P /storage/system/
-
-echo
-echo "Amstrad-CPC"
-echo
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
-wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
+#echo
+#echo "Amstrad-CPC"
+#echo
+#wget -c "${RUTA}Amstrad%20-%20CPC/cpc464.rom" -P /storage/system/
+#wget -c "${RUTA}Amstrad%20-%20CPC/cpc6128.rom" -P /storage/system/
+#wget -c "${RUTA}Amstrad%20-%20CPC/cpc664.rom" -P /storage/system/
+#wget -c "${RUTA}Amstrad%20-%20CPC/cpc_amsdos.rom" -P /storage/system/
 echo
