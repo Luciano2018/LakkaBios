@@ -16,6 +16,11 @@ mkdir /storage/system/xmil/
 mkdir /storage/system/pcsx2/
 mkdir /storage/system/pcsx2/bios/
 mkdir /storage/system/fuse/
+mkdir /storage/system/SGB1.sfc/
+mkdir /storage/system/SGB2.sfc/
+echo
+rm "/storage/system/SGB1.sfc/"
+rm "/storage/system/SGB2.sfc/"
 rm "/storage/system/3do_arcade_saot.bin"
 rm "/storage/system/goldstar.bin"
 rm "/storage/system/panafz10.bin"
@@ -692,12 +697,11 @@ wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.d
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.program.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb1.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb2.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc/sgb1.boot.rom" -P /storage/system/SGB1.sfc/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc/program.rom" -P /storage/system/SGB1.sfc/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc/sgb2.boot.rom" -P /storage/system/SGB2.sfc/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc/program.rom" -P /storage/system/SGB2.sfc/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
 echo
