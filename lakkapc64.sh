@@ -477,8 +477,8 @@ echo
 
 echo
 echo "Atari-7800(ProSystem)"
-wget -c "${RUTA}7800%20BIOS%20(U).rom" -P /storage/system/
-mv "7800%20BIOS%20(U).rom" "7800 BIOS (U).rom"
+wget -c "${RUTA}Atari%20-%207800/7800%20BIOS%20(U).rom" -P /storage/system/
+mv "/storage/system/7800%20BIOS%20(U).rom" "/storage/system/7800 BIOS (U).rom"
 echo
 
 echo
