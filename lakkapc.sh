@@ -634,9 +634,9 @@ echo "Nintendo - DS(DeSmuME 2015 and DeSmuME and melonDS)"
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/firmware.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios7.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
-wget -c "${RUTA}dsi_firmware.bin" -P /storage/system/
-wget -c "${RUTA}dsi_bios7.bin" -P /storage/system/
-wget -c "${RUTA}dsi_bios9.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_firmware.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios7.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios9.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 echo
@@ -881,8 +881,8 @@ echo "Sony - PlayStation(Beetle PSX HW - PCSX ReARMed - SwanStation)"
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5500.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5501.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5502.bin" -P /storage/system/
-wget -c "${RUTA}psxonpsp660.bin" -P /storage/system/
-wget -c "${RUTA}ps1_rom.bin" -P /storage/system/
+wget -c "${RUTA}Sony%20-%20PlayStation/psxonpsp660.bin" -P /storage/system/
+wget -c "${RUTA}Sony%20-%20PlayStation/ps1_rom.bin" -P /storage/system/
 echo
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph1000.bin" -P /storage/system/
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph1001.bin" -P /storage/system/
