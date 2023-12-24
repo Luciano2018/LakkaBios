@@ -733,7 +733,7 @@ echo
 
 echo
 echo "Sega-Dreamcast/Naomi(Flycast)"
-wget -c "${RUTA}Sega%20-%20Dreamcast/dc/boot.bin" -P /storage/system/dc/
+wget -c "${RUTA}Sega%20-%20Dreamcast/dc/dc_boot.bin" -P /storage/system/dc/
 wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi.zip" -P /storage/system/dc/
 wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi2.zip" -P /storage/system/dc/
 wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/hod2bios.zip" -P /storage/system/dc/
