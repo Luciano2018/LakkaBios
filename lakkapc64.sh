@@ -19,8 +19,12 @@ mkdir /storage/system/fuse/
 mkdir /storage/system/SGB1.sfc/
 mkdir /storage/system/SGB2.sfc/
 echo
-rm "/storage/system/SGB1.sfc/"
-rm "/storage/system/SGB2.sfc/"
+rm "/storage/system/SGB1.sfc/program.rom"
+rm "/storage/system/SGB1.sfc/sgb1.boot.rom"
+rm "/storage/system/SGB1.sfc/SGB1.sfc"
+rm "/storage/system/SGB2.sfc/program.rom"
+rm "/storage/system/SGB2.sfc/sgb2.boot.rom"
+rm "/storage/system/SGB2.sfc/SGB2.sfc"
 rm "/storage/system/3do_arcade_saot.bin"
 rm "/storage/system/goldstar.bin"
 rm "/storage/system/panafz10.bin"
