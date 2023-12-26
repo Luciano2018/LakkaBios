@@ -23,10 +23,10 @@ Password root
 ```
 curl -sSL https://raw.githubusercontent.com/PIBSAS/LakkaBios/main/lakka | bash
 ```
-## For PC 64 bits:
+## For 64 bits:
 
 ```
-curl -sSL https://raw.githubusercontent.com/PIBSAS/LakkaBios/main/lakkapc64.sh | bash
+curl -sSL https://raw.githubusercontent.com/PIBSAS/LakkaBios/main/lakka64.sh | bash
 ```
 
 
