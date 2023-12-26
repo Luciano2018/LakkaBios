@@ -1,8 +1,5 @@
 # Lakka Bios
-</p>
-<p align="center">
   ![](Lakka.png)
-</p>
 
   
 
