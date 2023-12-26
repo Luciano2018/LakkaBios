@@ -1,6 +1,10 @@
 # Lakka Bios
+</p>
+<p align="center">
+<img src=![](Lakka.png) alt="Raspberry Pi Buenos Aires" width="400" height="500">
+</p>
 
-  ![](Lakka.png)
+  
 
 
 <h1 align="center"> Invite a Coffee</h1>
