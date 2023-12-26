@@ -1,7 +1,8 @@
 # Lakka Bios
 
 <p align="center">
-  <img src="[image.png](https://github.com/PIBSAS/LakkaBios/blob/main/Lakka.png)" alt="Lakka Bios">
+  <img alt="Lakka.png" src="https://github.com/PIBSAS/LakkaBios/blob/main/Lakka.png?raw=true">
+    
 </p>
 
 
