@@ -501,7 +501,7 @@ rm "/storage/system/same_cdi/bios/cdibios.zip"
 rm "/storage/system/same_cdi/bios/cdimono1.zip"
 rm "/storage/system/same_cdi/bios/cdimono2.zip"
 #vice
-rm "/storage/system/vice/JiffyDOS1541-II.bin"
+rm "/storage/system/vice/JiffyDOS_1541-II.bin"
 rm "/storage/system/vice/JiffyDOS_1571_repl310654.bin"
 rm "/storage/system/vice/JiffyDOS_1581.bin"
 rm "/storage/system/vice/JiffyDOS_C128.bin"
@@ -599,7 +599,7 @@ echo "Commodore - C128(VICE x128 and VICE x64, fast)"
 echo
 wget -c "${RUTA}vice/JiffyDOS_C64.bin" -P /storage/system/vice/
 wget -c "${RUTA}vice/JiffyDOS_C128.bin" -P /storage/system/vice/
-wget -c "${RUTA}vice/JiffyDOS1541-II.bin" -P /storage/system/vice/
+wget -c "${RUTA}vice/JiffyDOS_1541-II.bin" -P /storage/system/vice/
 wget -c "${RUTA}vice/JiffyDOS_1571_repl310654.bin" -P /storage/system/vice/
 wget -c "${RUTA}vice/JiffyDOS_1581.bin" -P /storage/system/vice/
 echo
