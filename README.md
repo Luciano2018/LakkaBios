@@ -20,6 +20,8 @@ ssh root@lakka
 Answer yes
 Password root
 ```
+
+## For 32 bits
 ```
 curl -sSL https://raw.githubusercontent.com/PIBSAS/LakkaBios/main/lakka | bash
 ```
