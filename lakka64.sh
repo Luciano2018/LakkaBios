@@ -773,10 +773,10 @@ wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.d
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st011.program.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.data.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/st018.program.rom" -P /storage/system/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc/sgb1.boot.rom" -P /storage/system/SGB1.sfc/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB1.sfc/program.rom" -P /storage/system/SGB1.sfc/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc/sgb2.boot.rom" -P /storage/system/SGB2.sfc/
-wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/SGB2.sfc/program.rom" -P /storage/system/SGB2.sfc/
+wget -c "${RUTA}SGB1.sfc/sgb1.boot.rom" -P /storage/system/SGB1.sfc/
+wget -c "${RUTA}SGB1.sfc/program.rom" -P /storage/system/SGB1.sfc/
+wget -c "${RUTA}SGB2.sfc/sgb2.boot.rom" -P /storage/system/SGB2.sfc/
+wget -c "${RUTA}SGB2.sfc/program.rom" -P /storage/system/SGB2.sfc/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
