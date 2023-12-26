@@ -230,6 +230,9 @@ rm "/storage/system/sgb1.program.rom"
 rm "/storage/system/sgb1.boot.rom"
 rm "/storage/system/sgb2.boot.rom"
 rm "/storage/system/sgb_boot.rom"
+rm "/storage/system/sgb_boot.bin"
+rm "/storage/system/sgb2_boot.rom"
+rm "/storage/system/sgb2_boot.bin"
 rm "/storage/system/sgb.boot.rom"
 rm "/storage/system/st010.data.rom"
 rm "/storage/system/st010.program.rom"
@@ -779,14 +782,15 @@ wget -c "${RUTA}SGB1.sfc/program.rom" -P /storage/system/SGB1.sfc/
 wget -c "${RUTA}SGB2.sfc/sgb2.boot.rom" -P /storage/system/SGB2.sfc/
 wget -c "${RUTA}SGB2.sfc/program.rom" -P /storage/system/SGB2.sfc/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb_boot.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_boot.bin" -P /storage/system/
 echo
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.boot.rom" -P /storage/system/
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb1.program.rom" -P /storage/system/
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB1.sfc" -P /storage/system/
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2_bios.bin" -P /storage/system/
-#wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.boot.rom" -P /storage/system/
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb2.program.rom" -P /storage/system/
 #wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/SGB2.sfc" -P /storage/system/
 echo
