@@ -573,12 +573,12 @@ wget -c "${RUTA}Atari%20-%20ST/tos.img" -P /storage/system/
 echo
 
 echo
-echo "Coleco-ColecoVision"
-wget -c "${RUTA}Coleco%20-%20ColecoVision/colecovision.rom" -P /storage/system/
+#echo "Coleco-ColecoVision"
+#wget -c "${RUTA}Coleco%20-%20ColecoVision/colecovision.rom" -P /storage/system/
 echo
 
 echo
-echo "Commodore-Amiga(PUAE 2021 and PUAE)"
+echo "Commodore-Amiga(PUAE 2021 - PUAE - UAE4ARM)"
 echo
 wget -c "${RUTA}Commodore%20-%20Amiga/kick33180.A500" -P /storage/system/
 wget -c "${RUTA}Commodore%20-%20Amiga/kick34005.A500" -P /storage/system/
