@@ -213,8 +213,6 @@ rm "/storage/system/sgb2.program.rom"
 rm "/storage/system/sgb2_bios.bin"
 rm "/storage/system/sgb_bios.bin"
 #Nintendo-SNES
-rm "/storage/system/SGB1.sfc"
-rm "/storage/system/SGB2.sfc"
 rm "/storage/system/cx4.data.rom"
 rm "/storage/system/dsp1.data.rom"
 rm "/storage/system/dsp1.program.rom"
@@ -659,11 +657,11 @@ echo
 #wget -c "${RUTA}Microsoft%20-%20MSX/RS232.ROM" -P /storage/system/
 echo
 
-echo
-echo "MSX/SVI/ColecoVision/SG-1000(blueMSX)"
-echo "System/Machines"
-echo "System/Databases"
-echo
+#echo
+#echo "MSX/SVI/ColecoVision/SG-1000(blueMSX)"
+#echo "System/Machines"
+#echo "System/Databases"
+#echo
 
 echo
 echo "NEC-PC Engine/CD/SuperGrafx(Beetle PCE FAST and Beetle PCE and Beetle SuperGrafx)"
@@ -723,7 +721,7 @@ wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_firmware.bin" -P /storage/syste
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios7.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios9.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
-wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
+#wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 echo
 
 echo
@@ -781,7 +779,7 @@ wget -c "${RUTA}SGB1.sfc/sgb1.boot.rom" -P /storage/system/SGB1.sfc/
 wget -c "${RUTA}SGB1.sfc/program.rom" -P /storage/system/SGB1.sfc/
 wget -c "${RUTA}SGB2.sfc/sgb2.boot.rom" -P /storage/system/SGB2.sfc/
 wget -c "${RUTA}SGB2.sfc/program.rom" -P /storage/system/SGB2.sfc/
-#wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
+wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb.boot.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/sgb_boot.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Satellaview/BS-X.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20SuFami%20Turbo/STBIOS.bin" -P /storage/system/
@@ -988,7 +986,7 @@ echo
 #wget -c "${RUTA}Sony%20-%20PlayStation/scph9002(7502).bin" -P /storage/system/
 echo
 
-echo "Sony - PlayStation 2(PCSX2)"
+#echo "Sony - PlayStation 2(PCSX2)"
 #wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100j-20000117.bin" -P /storage/system/pcsx2/bios/
 #wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0100jd-20000117.bin" -P /storage/system/pcsx2/bios/
 #wget -c "${RUTA}Sony%20-%20PlayStation%202/pcsx2/bios/ps2-0101j-20000217.bin" -P /storage/system/pcsx2/bios/
