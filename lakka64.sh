@@ -811,10 +811,10 @@ wget -c "${RUTA}same_cdi/bios/cdimono2.zip" -P /storage/system/same_cdi/bios/
 wget -c "${RUTA}same_cdi/bios/cdibios.zip" -P /storage/system/same_cdi/bios/
 echo
 
-echo
-echo "ScummVM"
-wget -c "${RUTA}ScummVM/scummvm.zip" -P /storage/system/
-echo
+#echo
+#echo "ScummVM"
+#wget -c "${RUTA}ScummVM/scummvm.zip" -P /storage/system/
+#echo
 
 echo
 echo "Sega-Dreamcast/Naomi(Flycast)"
