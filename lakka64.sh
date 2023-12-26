@@ -36,10 +36,10 @@ rm "/storage/system/panafz1j-norsa.bin"
 rm "/storage/system/panafz1j.bin"
 rm "/storage/system/sanyotry.bin"
 #Amstrad-CPC no more neccesary on PC only?
-rm "/storage/system/cpc464.rom"
-rm "/storage/system/cpc6128.rom"
-rm "/storage/system/cpc664.rom"
-rm "/storage/system/cpc_amsdos.rom"
+#rm "/storage/system/cpc464.rom"
+#rm "/storage/system/cpc6128.rom"
+#rm "/storage/system/cpc664.rom"
+#rm "/storage/system/cpc_amsdos.rom"
 #Arcade
 rm "/storage/system/fbneo/bubsys.zip"
 rm "/storage/system/fbneo/cchip.zip"
@@ -71,14 +71,14 @@ rm "/storage/system/ATARIXL.ROM"
 #Atari-5200
 rm "/storage/system/5200.rom"
 #Atari-7800
-rm "/storage/system/7800 BIOS (E).rom" #No more needed on PC
+#rm "/storage/system/7800 BIOS (E).rom" #No more needed on PC
 rm "/storage/system/7800 BIOS (U).rom"
 #Atari-Lynx
 rm "/storage/system/lynxboot.img"
 #Atari-ST
 rm "/storage/system/tos.img"
-#AColeco-ColecoVision
-rm "/storage/system/colecovision.rom"
+#Coleco-ColecoVision
+#rm "/storage/system/colecovision.rom"
 #Commodore-Amiga
 rm "/storage/system/kick33180.A500"
 rm "/storage/system/kick34005.A500"
@@ -93,30 +93,30 @@ rm "/storage/system/kick40063.A600"
 rm "/storage/system/kick40068.A1200"
 rm "/storage/system/kick40068.A4000"
 #Enterprise-64-128 No more needed on PC64bits
-rm "/storage/system/basic20.rom"
-rm "/storage/system/basic21.rom"
-rm "/storage/system/brd.rom"
-rm "/storage/system/epd19hft.rom"
-rm "/storage/system/epfileio.rom"
-rm "/storage/system/exdos13.rom"
-rm "/storage/system/exos20.rom"
-rm "/storage/system/exos21.rom"
-rm "/storage/system/exos24uk.rom"
-rm "/storage/system/hun.rom"
-rm "/storage/system/zt18hfnt.rom"
-rm "/storage/system/zt19uk.rom"
+#rm "/storage/system/basic20.rom"
+#rm "/storage/system/basic21.rom"
+#rm "/storage/system/brd.rom"
+#rm "/storage/system/epd19hft.rom"
+#rm "/storage/system/epfileio.rom"
+#rm "/storage/system/exdos13.rom"
+#rm "/storage/system/exos20.rom"
+#rm "/storage/system/exos21.rom"
+#rm "/storage/system/exos24uk.rom"
+#rm "/storage/system/hun.rom"
+#rm "/storage/system/zt18hfnt.rom"
+#rm "/storage/system/zt19uk.rom"
 #Fairchild Channel F
 rm "/storage/system/sl31253.bin"
 rm "/storage/system/sl31254.bin"
 rm "/storage/system/sl90025.bin"
 #Id Software-Doom
 rm "/storage/system/prboom.wad"
-#J2ME No more needed on PC and Pi 64 bits
-rm "/storage/system/freej2me-lr.jar"
-rm "/storage/system/freej2me-sdl.jar"
-rm "/storage/system/freej2me.jar"
+#J2ME No more needed
+#rm "/storage/system/freej2me-lr.jar"
+#rm "/storage/system/freej2me-sdl.jar"
+#rm "/storage/system/freej2me.jar"
 #Mac II
-rm "/storage/system/MacII.ROM"
+#rm "/storage/system/MacII.ROM"
 #Magnavox-Odyssey2
 rm "/storage/system/o2rom.bin"
 #Mattel-Intellivision
@@ -143,9 +143,9 @@ rm "/storage/system/gecard.pce"
 rm "/storage/system/gexpress.pce"
 rm "/storage/system/syscard1.pce"
 rm "/storage/system/syscard2.pce"
-rm "/storage/system/syscard2u.pce" #No more needed on PC 64 bits
+#rm "/storage/system/syscard2u.pce" #No more needed on PC 64 bits
 rm "/storage/system/syscard3.pce"
-rm "/storage/system/syscard3u.pce" #No more needed on PC 64 bits
+#rm "/storage/system/syscard3u.pce" #No more needed on PC 64 bits
 #NEC-PC-98
 rm "/storage/system/np2kai/2608_BD.WAV"
 rm "/storage/system/np2kai/2608_HH.WAV"
@@ -171,16 +171,16 @@ rm "/storage/system/nes.pal"
 #Nintendo-Game Boy Advance
 rm "/storage/system/gba_bios.bin"
 #Nintendo-GameCube No more needed PC 64bits
-rm "/storage/system/gc-dvd-20010608.bin"
-rm "/storage/system/gc-dvd-20010831.bin"
-rm "/storage/system/gc-dvd-20020402.bin"
-rm "/storage/system/gc-dvd-20020823.bin"
-rm "/storage/system/gc-ntsc-10.bin"
-rm "/storage/system/gc-ntsc-11.bin"
-rm "/storage/system/gc-ntsc-12.bin"
-rm "/storage/system/gc-pal-10.bin"
-rm "/storage/system/gc-pal-11.bin"
-rm "/storage/system/gc-pal-12.bin"
+#rm "/storage/system/gc-dvd-20010608.bin"
+#rm "/storage/system/gc-dvd-20010831.bin"
+#rm "/storage/system/gc-dvd-20020402.bin"
+#rm "/storage/system/gc-dvd-20020823.bin"
+#rm "/storage/system/gc-ntsc-10.bin"
+#rm "/storage/system/gc-ntsc-11.bin"
+#rm "/storage/system/gc-ntsc-12.bin"
+#rm "/storage/system/gc-pal-10.bin"
+#rm "/storage/system/gc-pal-11.bin"
+#rm "/storage/system/gc-pal-12.bin"
 #Nintendo-Game Boy Color
 rm "/storage/system/cgb_boot.bin"
 rm "/storage/system/gbc_bios.bin"
@@ -199,12 +199,12 @@ rm "/storage/system/firmware.bin"
 rm "/storage/system/dsi_nand.bin" #Archive org
 rm "/storage/system/dsi_sd_card.bin" #Miss
 #Nintendo-NES no more needed
-rm "/storage/system/NstDatabase.xml"
+#rm "/storage/system/NstDatabase.xml"
 #Nintendo-Pokemon Mini
 rm "/storage/system/bios.min"
 #Nintendo-Satellaview
-rm "/storage/system/BS-X%20(En)%20(DRM-Free).bin" #No more needed
-rm "/storage/system/BS-X%20(En).bin" #No more needed
+#rm "/storage/system/BS-X%20(En)%20(DRM-Free).bin" #No more needed
+#rm "/storage/system/BS-X%20(En).bin" #No more needed
 rm "/storage/system/BS-X.bin"
 #Nintendo-SuFami Turbo
 rm "/storage/system/STBIOS.bin"
@@ -264,7 +264,7 @@ rm "/storage/system/neocd/ng-lo.rom"
 rm "/storage/system/neocd/top-sp1.bin"
 rm "/storage/system/neocd/uni-bioscd.rom"
 #ScummVM
-rm "/storage/system/scummvm.zip"
+#rm "/storage/system/scummvm.zip"
 #Sega-Dreamcast-based Arcade 
 rm "/storage/system/dc/airlbios.zip"
 rm "/storage/system/dc/awbios.zip"
@@ -275,9 +275,9 @@ rm "/storage/system/dc/hod2bios.zip"
 rm "/storage/system/dc/naomi.zip"
 rm "/storage/system/dc/naomi2.zip"
 #Sega-Dreamcast
-rm "/storage/system/dc/boot.bin" #No more needed
+#rm "/storage/system/dc/boot.bin" #No more needed
 rm "/storage/system/dc/dc_boot.bin"
-rm "/storage/system/dc/flash.bin" #No more needed
+#rm "/storage/system/dc/flash.bin" #No more needed
 #Sega-Game Gear
 rm "/storage/system/bios.gg"
 #Sega-Master System-Mark III
@@ -310,7 +310,7 @@ rm "/storage/system/sega_100a.bin"
 rm "/storage/system/sega_101.bin"
 rm "/storage/system/stvbios.zip" #Bad place
 rm "/storage/system/kronos/stvbios.zip" #Correct place
-rm "/storage/system/vsaturn.bin" #No more needed
+#rm "/storage/system/vsaturn.bin" #No more needed
 #Sharp-X1
 rm "/storage/system/xmil/IPLROM.X1"
 rm "/storage/system/xmil/IPLROM.X1T"
@@ -332,56 +332,57 @@ rm "/storage/system/fuse/256s-3.rom"
 rm "/storage/system/fuse/gluck.rom"
 rm "/storage/system/fuse/trdos.rom"
 #Old bios no more needed
-rm "/storage/system/128-0.rom"
-rm "/storage/system/128-1.rom"
-rm "/storage/system/128-spanish-0.rom"
-rm "/storage/system/128-spanish-1.rom"
-rm "/storage/system/128p-0.rom"
-rm "/storage/system/128p-1.rom"
-rm "/storage/system/256s-0.rom"
-rm "/storage/system/256s-1.rom"
-rm "/storage/system/256s-2.rom"
-rm "/storage/system/256s-3.rom"
-rm "/storage/system/48.rom"
-rm "/storage/system/disciple.rom"
-rm "/storage/system/disk_plus3.szx"
-rm "/storage/system/gluck.rom"
-rm "/storage/system/if1-1.rom"
-rm "/storage/system/if1-2.rom"
-rm "/storage/system/plus2-0.rom"
-rm "/storage/system/plus2-1.rom"
-rm "/storage/system/plus3-0.rom"
-rm "/storage/system/plus3-1.rom"
-rm "/storage/system/plus3-2.rom"
-rm "/storage/system/plus3-3.rom"
-rm "/storage/system/plus3e-0.rom"
-rm "/storage/system/plus3e-1.rom"
-rm "/storage/system/plus3e-2.rom"
-rm "/storage/system/plus3e-3.rom"
-rm "/storage/system/plusd.rom"
-rm "/storage/system/se-0.rom"
-rm "/storage/system/se-1.rom"
-rm "/storage/system/speccyboot-1.4.rom"
-rm "/storage/system/tape_128.szx"
-rm "/storage/system/tape_16.szx"
-rm "/storage/system/tape_2048.szx"
-rm "/storage/system/tape_2068.szx"
-rm "/storage/system/tape_48.szx"
-rm "/storage/system/tape_pentagon.szx"
-rm "/storage/system/tape_plus2.szx"
-rm "/storage/system/tape_plus2a.szx"
-rm "/storage/system/tape_plus3.szx"
-rm "/storage/system/tape_plus3e.szx"
-rm "/storage/system/tape_scorpion.szx"
-rm "/storage/system/tape_se.szx"
-rm "/storage/system/tape_ts2068.szx"
-rm "/storage/system/tc2048.rom"
-rm "/storage/system/tc2068-0.rom"
-rm "/storage/system/tc2068-1.rom"
-rm "/storage/system/trdos.rom"
-rm "/storage/system/zx128.rom"
-rm "/storage/system/zx48.rom"
+#rm "/storage/system/128-0.rom"
+#rm "/storage/system/128-1.rom"
+#rm "/storage/system/128-spanish-0.rom"
+#rm "/storage/system/128-spanish-1.rom"
+#rm "/storage/system/128p-0.rom"
+#rm "/storage/system/128p-1.rom"
+#rm "/storage/system/256s-0.rom"
+#rm "/storage/system/256s-1.rom"
+#rm "/storage/system/256s-2.rom"
+#rm "/storage/system/256s-3.rom"
+#rm "/storage/system/48.rom"
+#rm "/storage/system/disciple.rom"
+#rm "/storage/system/disk_plus3.szx"
+#rm "/storage/system/gluck.rom"
+#rm "/storage/system/if1-1.rom"
+#rm "/storage/system/if1-2.rom"
+#rm "/storage/system/plus2-0.rom"
+#rm "/storage/system/plus2-1.rom"
+#rm "/storage/system/plus3-0.rom"
+#rm "/storage/system/plus3-1.rom"
+#rm "/storage/system/plus3-2.rom"
+#rm "/storage/system/plus3-3.rom"
+#rm "/storage/system/plus3e-0.rom"
+#rm "/storage/system/plus3e-1.rom"
+#rm "/storage/system/plus3e-2.rom"
+#rm "/storage/system/plus3e-3.rom"
+#rm "/storage/system/plusd.rom"
+#rm "/storage/system/se-0.rom"
+#rm "/storage/system/se-1.rom"
+#rm "/storage/system/speccyboot-1.4.rom"
+#rm "/storage/system/tape_128.szx"
+#rm "/storage/system/tape_16.szx"
+#rm "/storage/system/tape_2048.szx"
+#rm "/storage/system/tape_2068.szx"
+#rm "/storage/system/tape_48.szx"
+#rm "/storage/system/tape_pentagon.szx"
+#rm "/storage/system/tape_plus2.szx"
+#rm "/storage/system/tape_plus2a.szx"
+#rm "/storage/system/tape_plus3.szx"
+#rm "/storage/system/tape_plus3e.szx"
+#rm "/storage/system/tape_scorpion.szx"
+#rm "/storage/system/tape_se.szx"
+#rm "/storage/system/tape_ts2068.szx"
+#rm "/storage/system/tc2048.rom"
+#rm "/storage/system/tc2068-0.rom"
+#rm "/storage/system/tc2068-1.rom"
+#rm "/storage/system/trdos.rom"
+#rm "/storage/system/zx128.rom"
+#rm "/storage/system/zx48.rom"
 #Sony-PlayStation 2 No more needed
+: <<'END_COMMENT'
 rm "/storage/system/pcsx2/bios/ps2-0100j-20000117.bin"
 rm "/storage/system/pcsx2/bios/ps2-0100jd-20000117.bin"
 rm "/storage/system/pcsx2/bios/ps2-0101j-20000217.bin"
@@ -455,6 +456,7 @@ rm "/storage/system/pcsx2/bios/ps2-0230h-20080220.bin"
 rm "/storage/system/pcsx2/bios/ps2-0230j-20080220.bin"
 rm "/storage/system/pcsx2/bios/ps2-0250e-20100415.bin"
 rm "/storage/system/pcsx2/bios/ps2-0250j-20100415.bin"
+END_COMMENT
 #Sony-PlayStation Portable
 rm "/storage/system/ppge_atlas.zim"
 #Sony-PlayStation
@@ -481,10 +483,10 @@ rm "/storage/system/scph7003.bin"
 rm "/storage/system/scph7502.bin"
 rm "/storage/system/scph9002(7502).bin"
 #Videoton-TV Computer No more available
-rm "/storage/system/tvc22_ext.rom"
-rm "/storage/system/tvc22_sys.rom"
-rm "/storage/system/tvc_dos12d.rom"
-rm "/storage/system/tvcfileio.rom"
+#rm "/storage/system/tvc22_ext.rom"
+#rm "/storage/system/tvc22_sys.rom"
+#rm "/storage/system/tvc_dos12d.rom"
+#rm "/storage/system/tvcfileio.rom"
 #Wolfenstein 3D
 rm "/storage/system/ecwolf.pk3"
 #quasi88
@@ -560,17 +562,20 @@ echo
 
 echo
 echo "Atari-7800(ProSystem)"
+echo
 wget -c "${RUTA}Atari%20-%207800/7800%20BIOS%20(U).rom" -P /storage/system/
 mv "/storage/system/7800%20BIOS%20(U).rom" "/storage/system/7800 BIOS (U).rom"
 echo
 
 echo
 echo "Atari-Lynx(Beetle Lynx AND Handy)"
+echo
 wget -c "${RUTA}Atari%20-%20Lynx/lynxboot.img" -P /storage/system/
 echo
 
 echo
 echo "Atari-ST-STE-TT-Falcon(Hatari)"
+echo
 wget -c "${RUTA}Atari%20-%20ST/tos.img" -P /storage/system/
 echo
 
@@ -608,16 +613,19 @@ echo
 
 echo
 echo "Dinothawr"
+echo
 wget -c "${RUTA}dinothawr.zip" -P /storage/system/
 echo
 
 echo
 echo "Doom(PrBoom)"
+echo
 wget -c "${RUTA}Id%20Software%20-%20Doom/prboom.wad" -P /storage/system/
 echo
 
 echo
 echo "Fairchild ChannelF(FreeChaF)"
+echo
 wget -c "${RUTA}Fairchild%20Channel%20F/sl31253.bin" -P /storage/system/
 wget -c "${RUTA}Fairchild%20Channel%20F/sl31254.bin" -P /storage/system/
 wget -c "${RUTA}Fairchild%20Channel%20F/sl90025.bin" -P /storage/system/
@@ -625,6 +633,7 @@ echo
 
 echo
 echo "Magnavox - Odyssey2/Phillips Videopac+(O2EM)"
+echo
 wget -c "${RUTA}Magnavox%20-%20Odyssey2/o2rom.bin" -P /storage/system/
 wget -c "${RUTA}Phillips%20-%20Videopac+/c52.bin" -P /storage/system/
 wget -c "${RUTA}Phillips%20-%20Videopac+/g7400.bin" -P /storage/system/
@@ -633,12 +642,14 @@ echo
 
 echo
 echo "Mattel-Intellivision(FreeIntv)"
+echo
 wget -c "${RUTA}Mattel%20-%20Intellivision/exec.bin" -P /storage/system/
 wget -c "${RUTA}Mattel%20-%20Intellivision/grom.bin" -P /storage/system/
 echo
 
 echo
 echo "Microsoft-MSX(fMSX)"
+echo
 wget -c "${RUTA}Microsoft%20-%20MSX/MSX.ROM" -P /storage/system/
 wget -c "${RUTA}Microsoft%20-%20MSX/MSX2.ROM" -P /storage/system/
 wget -c "${RUTA}Microsoft%20-%20MSX/MSX2EXT.ROM" -P /storage/system/
@@ -677,6 +688,7 @@ echo
 
 echo
 echo "NEC - PC-8800/PC-8800 series(QUASI88)"
+echo
 wget -c "${RUTA}quasi88/n88.rom" -P /storage/system/quasi88/
 wget -c "${RUTA}quasi88/n88_0.rom" -P /storage/system/quasi88/
 wget -c "${RUTA}quasi88/n88_1.rom" -P /storage/system/quasi88/
@@ -691,6 +703,7 @@ echo
 
 echo
 echo "NEC-PC-98(Neko Project II Kai)"
+echo
 wget -c "${RUTA}NEC%20-%20PC-98/font.bmp" -P /storage/system/np2kai/
 wget -c "${RUTA}NEC%20-%20PC-98/FONT.ROM" -P /storage/system/np2kai/
 wget -c "${RUTA}NEC%20-%20PC-98/bios.rom" -P /storage/system/np2kai/
@@ -706,6 +719,7 @@ echo
 
 echo
 echo "NEC - PC-FX(Beetle PC-FX)"
+echo
 wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
 #wget -c "${RUTA}NEC%20-%20PC-FX/fx-scsi.rom" -P /storage/system/
 #wget -c "${RUTA}NEC%20-%20PC-FX/pcfxbios.bin" -P /storage/system/
@@ -713,7 +727,9 @@ wget -c "${RUTA}NEC%20-%20PC-FX/pcfx.rom" -P /storage/system/
 #wget -c "${RUTA}NEC%20-%20PC-FX/pcfxv101.bin" -P /storage/system/
 echo
 
+echo
 echo "Nintendo - DS(DeSmuME 2015 and DeSmuME and melonDS)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/firmware.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios7.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/bios9.bin" -P /storage/system/
@@ -721,11 +737,12 @@ wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_firmware.bin" -P /storage/syste
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios7.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Nintendo%20DS/dsi_bios9.bin" -P /storage/system/
 wget -c "${RUTA_ARCH}dsi_nand.bin" -P /storage/system/
-#wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
+wget -c "${RUTA_ARCH}dsi_sd_card.bin" -P /storage/system/
 echo
 
 echo
 echo "Nintendo - Game Boy/Color(Gambatte - SameBoy)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Gameboy/gb_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Gameboy%20Color/gbc_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Gameboy/dmg_boot.bin" -P /storage/system/
@@ -734,12 +751,14 @@ echo
 
 echo
 echo "Nintendo-Game Boy Advance(gpSP - mGBA - VBA-M)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Game%20Boy%20Advance/gba_bios.bin" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Game%20Boy/sgb_bios.bin" -P /storage/system/
 echo
 
 echo
 echo "Nintendo - NES/Famicom(FCEUmm - Mesen - Nestopia UE)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/disksys.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/nes.pal" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Famicom%20Disk%20System/gamegenie.nes" -P /storage/system/
@@ -747,17 +766,20 @@ echo
 
 echo
 echo "Nintendo - Nintendo 64(ParaLLEI N64)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Nintendo%2064DD/64DD_IPL.bin" -P /storage/system/
 echo
 
 echo
 echo "Nintendo - Pokemon Mini(PokeMini)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Pokemon%20Mini/bios.min" -P /storage/system/
 echo
 
 echo
 echo "Nintendo - SNES/Famicom/SFC/Game Voy/Color(higan Accuracy - nSide Balanced)"
 echo "(bsnes 2014 Performance - bsnes - bsnes-hd beta - bsnes-mercury Performance - Snes9x-Current - Mesen-S)"
+echo
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.data.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1.program.rom" -P /storage/system/
 wget -c "${RUTA}Nintendo%20-%20Super%20Nintendo%20Entertainment%20System/dsp1b.data.rom" -P /storage/system/
@@ -795,6 +817,7 @@ echo
 
 echo
 echo "Palm OS(Mu)"
+echo
 wget -c "${RUTA}palmos40-en-m500.rom" -P /storage/system/
 wget -c "${RUTA}palmos41-en-m515.rom" -P /storage/system/
 wget -c "${RUTA}palmos52-en-t3.rom" -P /storage/system/
@@ -804,6 +827,7 @@ echo
 
 echo
 echo "Phillips - CDi(SAME CDi)"
+echo
 wget -c "${RUTA}same_cdi/bios/cdimono1.zip" -P /storage/system/same_cdi/bios/
 wget -c "${RUTA}same_cdi/bios/cdimono2.zip" -P /storage/system/same_cdi/bios/
 wget -c "${RUTA}same_cdi/bios/cdibios.zip" -P /storage/system/same_cdi/bios/
@@ -816,6 +840,7 @@ echo
 
 echo
 echo "Sega-Dreamcast/Naomi(Flycast)"
+echo
 wget -c "${RUTA}Sega%20-%20Dreamcast/dc/dc_boot.bin" -P /storage/system/dc/
 wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi.zip" -P /storage/system/dc/
 wget -c "${RUTA}Sega%20-%20Dreamcast-based%20Arcade/dc/naomi2.zip" -P /storage/system/dc/
@@ -830,6 +855,7 @@ echo
 
 echo
 echo "Sega-MS/GG/MD/CD/32X(Emux SMS - Génesis Plus GX/ Wide - PicoDrive)"
+echo
 wget -c "${RUTA}Sega%20-%20Master%20System%20-%20Mark%20III/bios.sms" -P /storage/system/
 wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/bios_MD.bin" -P /storage/system/
 wget -c "${RUTA}Sega%20-%20Mega%20CD%20-%20Sega%20CD/bios_CD_E.bin" -P /storage/system/
@@ -847,11 +873,13 @@ echo
 
 echo
 echo "Sega-Mega Drive-Genesis(BlastEm)"
+echo
 wget -c "${RUTA}Sega%20-%20Mega%20Drive%20-%20Genesis/rom.db" -P /storage/system/
 echo
 
 echo
 echo "Sega - Saturn(Beetle Saturn - YabaSanshiro - Yabause - Kronos)"
+echo
 wget -c "${RUTA}Sega%20-%20Saturn/sega_101.bin" -P /storage/system/
 wget -c "${RUTA}Sega%20-%20Saturn/mpr-17933.bin" -P /storage/system/
 wget -c "${RUTA}Sega%20-%20Saturn/mpr-18811-mx.ic1" -P /storage/system/
@@ -869,6 +897,7 @@ echo
 
 echo
 echo "Sharp - X68000(PX68k)"
+echo
 wget -c "${RUTA}Sharp%20-%20X68000/iplrom.dat" -P /storage/system/keropi/
 wget -c "${RUTA}Sharp%20-%20X68000/cgrom.dat" -P /storage/system/keropi/
 wget -c "${RUTA}Sharp%20-%20X68000/iplrom30.dat" -P /storage/system/keropi/
@@ -878,16 +907,18 @@ echo
 
 echo
 echo "Sharp X1(X Millennium)"
+echo
 wget -c "${RUTA}Sharp%20-%20X1/IPLROM.X1" -P /storage/system/xmil/
 wget -c "${RUTA}Sharp%20-%20X1/IPLROM.X1T" -P /storage/system/xmil/
 echo
 
+echo
 echo "Sinclair-ZX Spectrum(Fuse)"
+echo
 #wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-0.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-0.rom" -P /storage/system/fuse/
 #wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-1.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128p-1.rom" -P /storage/system/fuse/
-
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-0.rom" -P /storage/system/
 wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/128-1.rom" -P /storage/system/
 #wget -c "${RUTA}Sinclair%20-%20ZX%20Spectrum/trdos.rom" -P /storage/system/
@@ -945,6 +976,7 @@ echo
 
 echo
 echo "SNK - NeoGeo CD(NeoCD)"
+echo
 wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_f.rom" -P /storage/system/neocd/
 wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/neocd_sf.rom" -P /storage/system/neocd/
 wget -c "${RUTA}SNK%20-%20NeoGeo%20CD/front-sp1.bin" -P /storage/system/neocd/
@@ -961,6 +993,7 @@ echo
 
 echo
 echo "Sony - PlayStation(Beetle PSX HW - PCSX ReARMed - SwanStation)"
+echo
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5500.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5501.bin" -P /storage/system/
 wget -c "${RUTA}Sony%20-%20PlayStation/scph5502.bin" -P /storage/system/
@@ -1064,6 +1097,7 @@ echo
 
 echo
 echo "Sony - PlayStation Portable(PPSSPP)"
+echo
 wget -c "${RUTA}Sony%20-%20PlayStation%20Portable/ppge_atlas.zim" -P /storage/system/
 echo
 
@@ -1087,11 +1121,13 @@ echo
 
 echo
 echo "Wolfenstein 3D(ECWolf)"
+echo
 wget -c "${RUTA}Wolfenstein%203D/ecwolf.pk3" -P /storage/system/
 echo
 
 echo
 echo "That's all!"
+echo "Now reboot"
 
 #Nada más comentar
 #echo
