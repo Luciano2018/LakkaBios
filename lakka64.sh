@@ -1,4 +1,9 @@
 #!/bin/bash
+###########################################################################
+# Repositorio: LakkaBios 2024
+# Por: Raspberry Pi Buenos Aires ("https://sites.google.com/view/raspberrypibuenosaires/)
+# License: http://creativecommons.org/licenses/by-sa/4.0/
+###########################################################################
 RUTA=https://github.com/PIBSAS/LakkaBios/raw/main/System/
 RUTA_ARCH=https://archive.org/download/raspberry-pi-buenos-aires-batocera-v31-BIOS/Raspberry%20Pi%20Buenos%20Aires%20Batocera%20V35%20BIOS%20Extra%20PC.zip/bios/
 cd
